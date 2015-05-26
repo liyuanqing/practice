@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .table01 tr td{
+            border: 1px solid black;
+        }
+        .table01 tr td li {
+            display: inline;
+        }
+        .table01 tr td.tu1{
+            width: 3px;
+        }
+        .table01 tr.q2{
+            background-color: #72726e;
+        }
+        .table01 tr td.q2{
+            font-size: 4px;
+        }
+        .table01 tr.q3{
+         background-color: #72726e;
+        }
+    </style>
+</head>
+<body>
+<table class="table01" cellspacing="0">
+<tr class="q2">
+    <td rowspan="3" colspan="2">申请事项</td>
+    <td colspan="3">职位</td>
+    <td colspan="3"><input type="text" size="3"></td>
+    <td rowspan="3">渠道</td>
+    <td colspan="3">应聘方式</td>
+    <td colspan="5">
+        <li>
+            <input type="radio" name="1" />
+            <label>社招</label>
+        </li>
+        <li>
+            <input type="radio"  name="1"/>
+            <label>网络</label>
+        </li>
+        <li>
+            <input type="radio"  name="1"/>
+            <label>推荐</label>
+        </li>
+    </td>
+    <td colspan="3">其他途径</td>
+    <td colspan="4"><input type="text" size="4"></td>
+</tr>
+    <tr class="q2">
+        <td colspan="3">期望薪资</td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3">推荐人</td>
+        <td colspan="5">
+            <li>
+                <input type="radio" name="2" />
+                <label>有推荐人</label>
+            </li>
+            <li>
+                <input type="radio"  name="2"/>
+                <label>无推荐人</label>
+            </li>
+        </td>
+        <td colspan="3">关系</td>
+        <td colspan="4"><input type="text" size="4"></td>
+    </tr>
+    <tr class="q2">
+        <td colspan="3">其他要求</td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td class="tu1" colspan="3">推荐人</td>
+        <td colspan="5"><input type="text" size="20"></td>
+        <td colspan="3">联系方式</td>
+        <td colspan="4"><input type="text" size="4"></td>
+
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">应聘人</td>
+        <td colspan="3">姓名</td>
+        <td colspan="7"><input type="text" size="7"></td>
+        <td colspan="3">婚否</td>
+        <td colspan="6">
+            <li>
+                <input type="radio" name="3" />
+                <label>已</label>
+            </li>
+            <li>
+                <input type="radio" name="3" />
+                <label>未</label>
+            </li>
+            <li>
+                <input type="radio" name="3" />
+                <label>离</label>
+            </li>
+            <li>
+                <input type="radio" name="3" />
+                <label>其他</label>
+            </li>
+        </td>
+        <td colspan="3" rowspan="5">粘贴照片</td>
+    </tr>
+    <tr>
+        <td colspan="3">身份证号</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">住址</td>
+        <td colspan="3">现住址</td>
+        <td colspan="7"><input type="text" size="7"></td>
+        <td colspan="3">籍贯</td>
+        <td colspan="6"><input type="text" size="15"></td>
+    </tr>
+    <tr>
+        <td colspan="3">户口所在</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">通讯</td>
+        <td colspan="3">固定电话</td>
+        <td colspan="7"><input type="tel" size="7"></td>
+        <td colspan="3">QQ/MSN</td>
+        <td colspan="6"><input type="text" size="15"></td>
+    </tr>
+    <tr>
+        <td colspan="3">移动电话</td>
+        <td colspan="7"><input type="text" size="7"></td>
+        <td colspan="3">电子邮件</td>
+        <td colspan="9"><input type="email" size="25"></td>
+    </tr>
+    <tr>
+    <td colspan="24">有无病史
+        <li>
+            <input type="radio" name="4" />
+            <label>无</label>
+        </li>
+        <li>
+            <input type="radio" name="4" />
+            <label>有</label>
+            如有请详细说明
+            <input type="text" size="50">
+        </li>
+    </td>
+</tr>
+    <tr>
+        <td colspan="2">最高学历</td>
+        <td colspan="3"><input type="text" size="5"></td>
+        <td colspan="3"> 毕业院校</td>
+        <td colspan="8"><input type="text" size="20"></td>
+        <td colspan="3">专业</td>
+        <td colspan="5"><input type="text" size="10"></td>
+    </tr>
+    <tr>
+        <td colspan="2">专业职称</td>
+        <td colspan="3"><input type="text" size="5"></td>
+        <td colspan="3">语言</td>
+        <td colspan="16">
+            <li>
+                <input type="radio" name="5" />
+                <label>英语</label>
+            </li>
+            <li>
+                <input type="radio" name="5" />
+                <label>日语</label>
+            </li>
+            <li>
+                <input type="radio" name="5" />
+                <label>俄语</label>
+            </li>
+            <li>
+                <input type="radio" name="5" />
+                <label>法语</label>
+            </li>
+            <li>
+                <input type="radio" name="5" />
+                <label>其他</label>
+            </li>
+           语种
+            <input type="text" size="7">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="3" >学习经历</td>
+        <td colspan="6">起止年月</td>
+        <td colspan="4">学校名称</td>
+        <td colspan="6">专业</td>
+        <td colspan="3">毕业或肄业</td>
+        <td colspan="3">证书编号</td>
+    </tr>
+    <tr>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+    </tr>
+    <tr>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="4">工作经历</td>
+        <td colspan="6">起止年月</td>
+        <td colspan="4">单位名称</td>
+        <td colspan="3">职务名称</td>
+        <td colspan="3">薪资水平</td>
+        <td colspan="3">证明人及电话</td>
+        <td colspan="3">离职原因</td>
+    </tr>
+    <tr>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+    </tr>
+    <tr>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+    </tr>
+    <tr>
+        <td colspan="6"><input type="text" size="6"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="5">技能</td>
+        <td colspan="6">编程语言</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="6">编程工具</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="6">运行环境</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="6">测试工具</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="6">数据库</td>
+        <td colspan="16"><input type="text" size="50"></td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="3">紧急联系人</td>
+        <td colspan="3">姓名</td>
+        <td colspan="3">称谓</td>
+        <td colspan="2">性别</td>
+        <td colspan="4">职务及服务处所</td>
+        <td colspan="5">联系方式</td>
+        <td colspan="5">住址</td>
+    </tr>
+    <tr>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="2"><input type="text" size="3"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="5"><input type="text" size="5"></td>
+        <td colspan="5"><input type="text" size="5"></td>
+    </tr>
+    <tr>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="3"><input type="text" size="3"></td>
+        <td colspan="2"><input type="text" size="3"></td>
+        <td colspan="4"><input type="text" size="4"></td>
+        <td colspan="5"><input type="text" size="5"></td>
+        <td colspan="5"><input type="text" size="5"></td>
+    </tr>
+    <tr>
+        <td colspan="24">
+            注：如有亲属在本公司工作的，必须如实填写，否则视为隐瞒申报材料
+        </td>
+
+    </tr>
+    <tr class="q3">
+        <td colspan="24">法定送达地址：黑龙江省哈尔滨市香坊区文昌街236号6层     邮编150040</td>
+    </tr>
+    <tr>
+        <td colspan="2">其他附件</td>
+        <td colspan="22">
+            1<input type="text" size="30">
+            2<input type="text" size="30"><br>
+            3<input type="text" size="30">
+            4<input type="text" size="30">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">声明</td>
+        <td colspan="22">
+               兹声明，表载有关申请人的内容及所有附件资料全部属实，公司同意对其真实性进行保密性核查工作如有任何失实或
+            隐瞒，本人愿意承担由此所引致的一切责任。本人如获聘用，当严守公司有关条规，如有违规，除承担法律责任外，愿接受
+            及时解雇及其他严厉处分，并放弃一切上诉辩护权。<br>
+                                                                        申请人<input type="text" size="3">  <input type="text" size="3">年 <input type="text" size="2">月 <input type="text" size="2">日
+        </td>
+    </tr>
+
+</table>
+</body>
+</html>

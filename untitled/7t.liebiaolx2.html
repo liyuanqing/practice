@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        tr td {
+            height: 60px;
+
+        }
+        .q1-1{
+            width: 70px;
+            font-size: 13px;
+        }
+        .q2-2{
+            width: 329px;
+        }
+        .img-01{
+            float: right;
+            display: none;
+        }
+        .q2-22{
+            height: 38px;
+            float: left;
+        }
+        .q2-2:hover .img-01{
+            display: block;
+        }
+        .q3-21{
+            width: 70px;
+            height: 38px;
+        }
+        .q3-21:focus{
+            border: 2px solid red;
+        }
+        .bt1{
+            width: 120px;
+            height: 45px;
+        }
+        .bt1:hover{
+            background-color: red;
+        }
+        .qq{
+            color: red;
+        }
+        /*.img-02{*/
+            /*position: absolute;*/
+            /*left:230px ;*/
+            /*top:77px ;*/
+        /*}*/
+        .q2-23{
+            height: 38px;
+            width: 39px;
+            float: left;
+            background-color: lightgray;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+<table class="table01" cellspacing="0">
+    <tr class="q1">
+        <td class="q1-1" >所在国家</td>
+        <td class="q1-2">
+            <select>
+                <option>中国大陆</option>
+                <option>美国</option>
+                <option>英国</option>
+                <option>意大利</option>
+                <option>韩国</option>
+                <option>中国大陆</option>
+                <option>中国大陆</option>
+            </select>
+        </td>
+    </tr>
+    <tr class="q2">
+        <td class="q1-1">手机号码</td>
+        <td class="q2-2"><div><input class="q2-23" type="text" value="+86"><input type="text"   class="q2-22">
+            <!--<div> <img src="tu/7-q1.jpg" class="img-02"></div>-->
+            <img src="tu/7-q2.jpg" class="img-01">
+        </div></td>
+    </tr>
+    <tr>
+        <td class="q1-1">验证码</td>
+        <td><div class="q3-2"><input type="text" src="tu/7-q1.jpg" class="q3-21"></div></td>
+    </tr>
+</table><br>
+<input type="radio">
+<label>同意<span class="qq">淘宝服务协议</span></label><br>
+<button class="bt1">下一步</button>
+<form>
+<input type="number">
+<input type="date">
+<input type="time">
+<input type="datetime-local"><br>
+<input type="month">
+<input type="week">
+    <input type="color">
+<!--<input type="range min="0" max="100" step=1>-->
+    <input type="search">
+<br><input type="submit">
+</form>
+</body>
+</html>

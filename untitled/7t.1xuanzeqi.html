@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /*dt> a {*/
+            /*color: red;*/
+        /*}*/
+        /*dt a {*/
+            /*color: red;*/
+        /*}*/
+        /*.a1+a{*/
+            /*color: red;*/
+        /*}*/
+        /*.jnNav .subitem .fore dd em + em a{*/
+           /*color: red;*/
+        /*}*/
+        /*.jnNav .subitem .fore dd em + em+em a{*/
+            /*color: black;*/
+        /*}*/
+        /*.jnNav .subitem .fore dt + dd em + em a{*/
+            /*color: red;*/
+        /*}*/
+        /*.nav li+li a{*/
+            /*color: black;*/
+        /*}*/
+        /*.nav li+li+li a{*/
+            /*text-decoration:underline;*/
+            /*color: blue;*/
+        /*}*/
+        /*.mainNav  ul li a{*/
+            /*color: blue;*/
+        /*}*/
+
+        /*.mainNav  ul li+li a{*/
+            /*color: black;*/
+        /*}*/
+        /*.mainNav  ul li>a{*/
+            /*color: blue;*/
+        /*}*/
+        /*.mainNav  ul li+li+li a{*/
+            /*color: blue;*/
+        /*}*/
+        /*<!--*/
+        /*1、href=#nogo的所有a元素，字体变红*/
+        /*2、em中class属性为go的超链接变绿色*/
+        /*3、id属性以“skin”开头的元素，变黄色*/
+        /*4、“阿迪达斯”变蓝色*/
+        /*5、具有title属性的li元素加粉色背景*/
+        /*-->*/
+
+        a[href="#nogo"]{
+            color: red;
+        }
+        em[class ~="go"] a{
+            color: green;
+        }
+        li[id|="skin"]{
+            color: yellow;
+        }
+        em a[ href="aa"]{
+            color: brown;
+        }
+        li[title]{
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+<div id="nav" class="mainNav">
+    <ul class="nav">
+        <li><a href="#" id="ida1" title="mmm">首 页</a></li>
+        <li><a href="#">品 牌1</a>
+            <div class="jnNav" title="kkkk">
+                <div class="subitem">
+                    <dl class="fore">
+                        <dt>
+                            <a href="aa">品牌2：</a>
+                        </dt>
+                        <dd>
+                            <em ><a href="#nogo" class="a1">耐克</a></em>
+                            <em ><a href="aa">阿迪达斯</a></em>
+                            <em class="noborder  go11"><a href="#nogo">达芙妮</a></em>
+                            <em class="s2  go"><a href="#nogo">李宁</a></em>
+                            <em class="go" ><a href="#nogo">达芙妮</a></em>
+                            <em ><a href="#nogo">李宁</a></em>
+                            <em class="noborder  go"><a href="#nogo">特步</a></em>
+                        </dd>
+                    </dl>
+
+                </div>
+            </div>
+        </li>
+        <li><a href="#">鞋包配饰</a>
+            <ul id="skin">
+                <li id="skin-0" title="蓝色" class="selected">蓝色</li>
+                <li id="skin-1" title="紫色">紫色</li>
+                <li id="skin-2" title="红色">红色</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<!--<div id="nav" class="mainNav">-->
+    <!--<ul class="nav">-->
+        <!--<li><a href="#" id="ida1">首 页</a></li>-->
+        <!--<li><a href="#">品 牌1</a>-->
+            <!--<div class="jnNav">-->
+                <!--<div class="subitem">-->
+                    <!--<dl class="fore">-->
+                        <!--<dt>-->
+                            <!--<a href="aa">品牌2：</a>-->
+                        <!--</dt>-->
+                        <!--<dd>-->
+                            <!--<em ><a href="#nogo" class="a1">耐克</a></em>-->
+                            <!--<em ><a href="aa">阿迪达斯</a></em>-->
+                            <!--<em ><a href="#nogo">达芙妮</a></em>-->
+                            <!--<em ><a href="#nogo">李宁</a></em>-->
+                            <!--<em ><a href="#nogo">达芙妮</a></em>-->
+                            <!--<em ><a href="#nogo">李宁</a></em>-->
+                            <!--<em class="noborder"><a href="#nogo">特步</a></em>-->
+                        <!--</dd>-->
+                    <!--</dl>-->
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</li>-->
+        <!--<li><a href="#">鞋包配饰</a></li>-->
+    <!--</ul>-->
+<!--</div>-->
+<!--<div class="search">-->
+    <!--<input type="text" id="inputSearch" class="" value="请输入商品名称" />-->
+<!--</div>-->
+<!--<ul id="skin">-->
+    <!--<li id="skin_0" title="蓝色" class="selected">蓝色</li>-->
+    <!--<li id="skin_1" title="紫色">紫色</li>-->
+    <!--<li id="skin_2" title="红色">红色</li>-->
+<!--</ul>-->
+
+</body>
+</html>

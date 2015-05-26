@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        a[href^="http"]{
+            color: red;
+        }
+        a[href*="jpg"]{
+            color: red;
+        }
+        a[href*="png"]{
+            color: yellow;
+        }
+        a[href*="rar"]{
+            color: peru;
+        }
+        .nav1 li:nth-child(18) a{
+            color: gold;
+        }
+        /*.nav1 li:nth-last-child(2) a{*/
+            /*color: gold;*/
+        /*}*/
+        /*a[href="http://mgame.sohu.com/"]{*/
+            /*color: gold;*/
+        /*}*/
+        div[class="clear"] [class="blank5 Area"]{
+            width: 100px;
+            height:100px ;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+<div id="navList">
+    <div class="nav1">
+        <ul>
+            <li class="red" style="margin-right:10px"><a href="http://www.sogou.com/">搜狗</a></li>
+            <li><a href="http://pinyin.sogou.com/">输入法</a></li>
+            <li><a href="http://ie.sogou.com/">浏览器</a></li>
+            <li><a href="http://map.sogou.com/">地图</a></li>
+            <li><a href="http://mail.sohu.com/">邮件</a></li>
+            <li><a href="http://t.sohu.com/">微博</a></li>
+            <li><a href="http://blog.sohu.com/">博客</a></li>
+            <li class="fontArial"><a href="http://club.sohu.com/">BBS</a></li>
+            <li><a href="http://pinglun.sohu.com/">我说两句</a></li>
+            <li class="red"><a href="http://mini.sohu.com/">微门户</a></li>
+            <li><a href="http://pic.sohu.com/">大视野</a></li>
+            <li class="red"><a href="http://tv.sohu.com/">视频</a></li>
+            <li style="margin-right:8px"><a href="http://class.chinaren.com/">校友录</a></li>
+            <li style="margin-right:8px"><a href="http://www.17173.com/">游戏</a></li>
+            <li class="red" style="margin-right:8px"><a href="http://xtl.changyou.com/">新天龙</a></li>
+            <li style="margin-right:8px"><a href="http://www.hz.changyou.com/">海战世界</a></li>
+            <li style="margin-right:8px"><a href="http://www.m.sohu.com/">手机搜狐</a></li>
+            <li style="margin-right:8px"><a href="http://mgame.sohu.com/">手机游戏</a></li>
+            <li class="navEnd"><a href="http://bj.focus.cn/egoufang/"><span class="fontArial">e</span>购房</a></li>
+        </ul>
+    </div>
+    <div class="nav2">
+        <ul>
+            <li class="red" style="margin-right:10px"><a href="http://news.sohu.com/">新闻</a></li>
+            <li><a href="http://mil.sohu.com/">军事</a></li>
+            <li><a href="http://cul.sohu.com/">文化</a></li>
+            <li class="red"><a href="http://history.sohu.com/">历史</a></li>
+            <li><a href="http://book.sohu.com/">读书</a></li>
+            <li class="fontArial red"><a href="http://sports.sohu.com/nba.shtml">NBA</a></li>
+            <li class="fontArial"><a href="http://cbachina.sports.sohu.com/">CBA</a></li>
+            <li style="margin-right:14px"><a href="http://sports.sohu.com/zhongchao.shtml">中超</a></li>
+            <li class="red"><a href="http://golf.sports.sohu.com/">高尔夫</a></li>
+            <li style="margin-right:12px"><a href="http://business.sohu.com/">财经</a></li>
+            <li><a href="http://money.sohu.com/">理财</a></li>
+            <li><a href="http://stock.sohu.com/">股票</a></li>
+            <li style="margin-right:14px"><a href="http://digi.it.sohu.com/">数码</a></li>
+            <li style="margin-right:14px"><a href="http://digi.it.sohu.com/mobile.shtml">手机</a></li>
+            <li style="margin-right:14px"><a href="http://auto.sohu.com/">汽车</a></li>
+            <li class="navEnd"><a href="http://2sc.sohu.com/">二手车</a></li>
+        </ul>
+    </div>
+    <div class="nav3">
+        <ul>
+            <li class="red" style="margin-right:10px"><a href="http://fashion.sohu.com/">时尚</a></li>
+            <li><a href="http://health.sohu.com/">健康</a></li>
+            <li><a href="http://travel.sohu.com/">旅游</a></li>
+            <li><a href="http://learning.sohu.com/">教育</a></li>
+            <li><a href="http://learning.sohu.com/liuxue/">出国</a></li>
+            <li class="red"><a href="http://learning.sohu.com/gaokao.shtml">高考</a></li>
+            <li><a href="http://baobao.sohu.com/">母婴</a></li>
+            <li><a href="http://chihe.sohu.com/">美食</a></li>
+            <li><a href="http://astro.sohu.com/">星座</a></li>
+            <li><a href="http://gongyi.sohu.com/">公益</a></li>
+            <li><a href="http://my.tv.sohu.com/">播客</a></li>
+            <li class="red"><a href="http://yule.sohu.com/">娱乐</a></li>
+            <li><a href="http://tv.sohu.com/drama/us/">美剧</a></li>
+            <li><a href="http://music.sohu.com/">音乐</a></li>
+            <li style="margin-right:14px"><a href="http://app.sohu.com/">应用</a></li>
+            <li><a href="http://www.focus.cn">房产</a></li>
+            <li><a href="http://esf.focus.cn/search/">二手房</a></li>
+            <li><a href="http://home.focus.cn">家居</a></li>
+            <li><a href="http://caipiao.sohu.com/">彩票</a></li>
+            <li id="place_holder2" class="navEnd"><a href="http://city.sohu.com/">城市</a></li>
+        </ul>
+    </div>
+
+</div>
+<div class="clear"></div>
+<div class="blank5 Area"></div>
+<div><a href="img/7-11.jpg">jpg下载</a></div>
+<div><a href="img/biankuang1.png">png下载</a></div>
+<div><a href="img/ps7mini.rar">rar下载</a></div>
+
+</body>
+</html>

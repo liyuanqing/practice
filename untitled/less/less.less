@@ -1,0 +1,84 @@
+//1.变量定义
+//@d:green;
+//@t:@d;
+//@d:red;
+//.main{
+//  color: @t;
+//}
+
+
+
+//2.混入(   1定义：（1）.dd（可以加参数，多参数用，隔开){  }
+//(2)#dd(@q:1px,@w:2px,@e:3px) {   }
+//2 引用： .main{}
+
+//.mm(@s:10px,@d:red){
+//  width: 100px;
+//  height: 100px;
+//  border: @s solid @d;
+//}
+//.main{
+//  .mm()
+//}
+//.main1{
+//  .mm(2px,blue);
+//  color: red;
+//}
+
+
+
+//3嵌套规则
+/*
+当定义的混入内部有div等框架时可以直接在混入的样式中改变框架的样式
+ */
+//.main{
+//  width: 100px;
+//  height: 100px;
+//  color: red;
+//  &:hover{
+//    background-color: red;
+//  }
+//  .d1{
+//    color: #101bcb;
+//  }
+//}
+//.d1{
+//  color: green;
+//}
+//.main .d1{
+//  color: yellow;
+//}
+//.main1{
+//  .main;
+//  .d2{
+//    color: yellow;
+//  }
+//}
+
+
+
+//4混入的全职需要加上父亲的权值
+//@color:red;
+//.main(@color:green;){
+//  width: 100px;
+//  height: 100px;
+//  color: red;
+//  &:hover{
+//    background-color: red;
+//  }
+//  .d1(@color:red;){
+//    color: #101bcb;
+//  }
+//}
+////5命名空间
+////引用方式 .main>.d1
+//.main1 .d1{
+//  .main>.d1
+//}
+//
+//
+////6变量范围
+////最近父类
+//.d1{
+//  color: lighten(red,50%);//0%-100%亮度
+//}

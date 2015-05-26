@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            width: 901px;
+        }
+        .q1{
+            background-image: url("tu/3-q11.jpg");
+            width: 901px;
+            height: 131px;
+        }
+        .q2{
+            border: 1px solid blue;
+            width: 901px;
+            height: 39px;
+            background-color: #9795ff;
+            font-size: 20px;
+            font-family: "楷体";
+            padding-top: 15px;
+            padding-left: 30px;
+        }
+        .q3{
+            border: 1px solid black;
+            width: 901px;
+            height: 30px;
+            background-color: #f0efd8;
+            font-size: 15px;
+            font-family: "楷体";
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+        .q3-1{
+            font-family: levenim MT;
+        }
+        .q4{
+            width:903px ;
+            height: 329px;
+        }
+        .q4-1{
+            background-image: url("tu/3-q3.jpg");
+            height: 343px;
+            width: 612px;
+            float: left;
+        }
+        .q4-2{
+            width: 289px;
+            height: 343px;
+            float: right;
+        }
+        .q4-21{
+            width: 309px;
+            height: 64px;
+            border-bottom:1px  solid whitesmoke;
+            font-size: 15px;
+            padding-top: 10px;
+        }
+        .q4-22{
+            width: 309px;
+            height: 45px;
+            border-bottom:1px  solid whitesmoke;
+            font-size: 15px;
+        }
+        .q4-211{
+            color: purple;
+            font-size: 15px;
+            padding-top: 10px;
+            padding-left: 7px;
+        }
+        .q4-212{
+            font-size: 12px;
+        }
+        .q4-biao li{
+            width: 309px;
+            height: 24px;
+            list-style: none;
+            font-size: 14px;
+            padding-left: 0px;
+        }
+        .q4-biao ul{
+            padding: 0;
+        }
+        .q5{
+            width: 950px;
+            height: 282px;
+        }
+        .q5-1{
+            width:300px;
+            height:282px ;
+            float: left;
+        }
+        .q5-11{
+            background-image: url("tu/3-q8.jpg");
+            width: 286px;
+            height: 52px;
+        }
+        .q{
+            width: 303px;
+            height: 225px;
+        }
+        .q5-12{
+            width: 151px;
+            height: 225px;
+            float: left;
+        }
+        .q5-13{
+            width:151px ;
+            height:225px ;
+            float: right;
+        }
+        .q5-121{
+            background-image: url("tu/3-q4.jpg");
+            width: 132px;
+            height: 162px;
+        }
+        .q5-122{
+            width: 151px;
+            height: 64px;
+        }
+        .q5-122 li{
+            list-style-type: disc;
+            font-size: 13px;
+            padding-left: 0px;
+        }
+        .q5-122 ul{
+            padding: 0px 0px 0px 15px ;
+        }
+        .q5-131{
+            background-image: url("tu/3-q5.jpg");
+            width: 132px;
+            height: 162px;
+        }
+        .q5-132{
+            width: 151px;
+            height: 64px;
+            font-size: 13px;
+        }
+        .q5-132 ul{
+            padding: 0px 0px 0px 15px ;
+        }
+        .q5-132 li{
+            list-style-type: disc
+        }
+        .q5-2{
+            width:311px;
+            height:282px ;
+            float: left;
+        }
+        .xie{
+            font-size:20px ;
+        }
+        .q5-22 li{
+            list-style-type: none;
+        }
+        .q5-3{
+            width:339px ;
+            height:282px ;
+            float: right;
+
+        }
+        .q5-32 li{
+            list-style-type: disc;
+            font-size: 15px;
+
+        }
+        .q6{
+            width:952px ;
+            height:317px ;
+        }
+        .q6-1{
+              width:302px ;
+              height:317px ;
+            float: left;
+          }
+        .q6-1 li{
+            list-style-type: none;
+            font-size: 15px;
+            padding-left: 0px;
+        }
+        .q6-2{
+            width:328px ;
+            height: 317px;
+            float: left;
+        }
+        .q6-2 li{
+            list-style-type: none;
+            font-size: 15px;
+        }
+        .q6-3{
+            width:320px ;
+            height:317px ;
+            float: left;
+        }
+        .q6-3 li{
+            list-style-type: none;
+            font-size: 15px;
+        }
+        .zi2{
+            float: left;
+        }
+        .zi3{
+            float: left;
+            clear: both;
+        }
+        .zi4{
+            clear: both;
+        }
+        .q6-11 ul{
+            padding: 0px 0px 0px 15px ;
+        }
+        .q6-21 ul{
+            padding: 0px 0px 0px 15px ;
+        }
+        .q6-31 ul{
+            padding: 0px 0px 0px 15px ;
+        }
+        .q7{
+            width: 952px;
+            height: 117px;
+            background-color: #edf4ff;
+
+        }
+        .q7-1{
+            font-size: 20px;
+            font-weight: 700;
+            color: purple;
+            width: 120px;
+            float: left;
+        }
+        .q7-2{
+            width: 440px;
+            float: left;
+            color: purple;
+            font-size: 14px;
+        }
+        .q7-3{
+            width: 390px;
+            float: right;
+            color: black;
+            font-size: 14px;
+        }
+        .q8{
+            width: 952px ;
+            height:397px ;
+        }
+        .q8-2{
+            width: 674px;
+            float: left;
+        }
+        .q8-3{
+            width: 275px;
+            height: 290px;
+            border: 1px solid #f0efd8;
+            float: right;
+            background-color: #f0efd8;
+        }
+        .q8-31{
+            width:137px ;
+            height:21px ;
+            float: left;
+            padding-top: 8px;
+            text-align: center;
+            border: 1px solid blue;
+            background-color: blue;
+        }
+        .q8-32{
+            width:133px ;
+            height:21px ;
+            float:right;
+            padding-top: 8px;
+            text-align: center;
+            border: 1px solid blue;
+            background-color: blue;
+        }
+        .q8-33 ul{
+            padding:40px 0px 10px 14px ;
+        }
+        .q8-33 li{
+            font-size: 13px;
+        }
+        .q9{
+            width: 952px;
+        }
+        .q9-1{
+            width: 287px;
+            float: left;
+            border-bottom: 1px solid wheat;
+        }
+        .q9-11{
+            width:279px ;
+            height:136px ;
+        }
+        .q9-111{
+            float: left;
+        }
+        .q9-112{
+            float: right;
+        }
+        .q9-112 ul{
+            padding:2px 0px 0px 14px ;
+        }
+        .q9-12{
+            padding:4px 0px 0px 14px ;
+        }
+        .q9-131{
+            float: left;
+        }
+        .q9-132{
+            float: left;
+            font-size: 13px;
+            color: purple;
+        }
+        .q9-14 ul{
+            clear: both;
+            padding:50px 0px 0px 100px ;
+            font-size: 14px;
+        }
+        .q9-2{
+            width:318px ;
+            float: left;
+        }
+        .q9-21{
+            width:296px ;
+            height:151px ;
+            border-bottom: 1px solid wheat;
+            font-size: 15px;
+        }
+        .q9-21 ul{
+            padding:0px 0px 0px 30px ;
+        }
+        .q9-22 {
+            width: 296px;
+            height: 151px;
+            font-size: 15px;
+        }
+        .q10{
+            width: 1000px;
+        }
+        .q10-1{
+            width:197px ;
+            height:365px ;
+            float: left;
+        }
+        .q10-11{
+            float: left;
+        }
+        .q10-12{
+            clear: both;
+            text-align: center;
+            font-size: 16px;
+            color: purple;
+        }
+        .bu2{
+            background-color: purple;
+            width: 70px;
+            height: 30px;
+        }
+        .bu1{
+            background-color: purple;
+            width: 70px;
+            height: 30px;
+        }
+
+        /*.zi1{*/
+            /*float: left;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="q1"></div>
+<div class="q2">首页 明星 电影 电视 音乐 戏剧 视频 大片 乐库 博客 韩娱 日娱 综艺 高清图 滚动 专题 策划</div>
+<div class="q3"><span class="q3-1">明星全接触</span> 内地强档 欧美巨星 港台风云 日韩偶像 专题 明星资料页 图片库    热点搜索<input type="text" size="10"> <select><option>新闻</option><option>图片</option><option>视频</option></option></select> <button type="submit" class="bu1">搜索</button></div>
+<div class="q4">
+    <div class="q4-1"></div>
+    <div class="q4-2">
+        <div class="q4-21">
+            <div class="q4-211">马雅舒没拿1分钱 吴奇隆:人在做天在看</div>
+            <div class="q4-212">[马雅舒:媒体失实报道 肚大疑将分娩 激吻外籍老公 调查]</div>
+        </div>
+        <div class="q4-21">
+            <div class="q4-211">刘嘉玲考虑死后捐身家：我何止值10亿</div>
+            <div class="q4-212">[谦称买亿元豪宅要借钱 助阵张震婚礼 拒帮王菲觅新欢]</div>
+        </div>
+        <div class="q4-22">
+            <div class="q4-211">丁珮曾三级片：李小龙死于云雨后服药</div>
+        </div>
+        <div class="q4-biao">
+            <ul>
+                <li>刘诗诗杨幂互送祝福：我们都会rg ree</li>
+                <li>隆诗恋蔡康永安慰小whS：th我们再找rrehrt</li>
+                <li>组图：波多野t结衣全裸按奶球 性thtrh</li>
+                <li>组图：杨幂婚纱照曝光 美丽新tht</li>
+                <li>薇女郎杨子姗承认与台湾演员th</li>
+                <li>港媒曝43岁htthtrhrthjtrjrthtrjjt郑嘉颖与38岁佘h诗<ht/li>
+            </ul>
+        </div>
+    </div>
+<div class="q5">
+    <div class="q5-1">
+        <div class="q5-11"><img src="tu/3-q8.jpg"></div>
+        <div class="q">
+            <div class="q5-12">
+                <div class="q5-121"></div>
+                <div class="q5-122">
+                    <ul>
+                        <li>张涵予机场拥</li>
+                        <li>凯奇携娇妻爱</li>
+                        <li>徐正曦周丽淇</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="q5-13">
+                <div class="q5-131"></div>
+                <div class="q5-132">
+                    <ul>
+                        <li>张涵予机场拥</li>
+                        <li>凯奇携娇妻爱</li>
+                        <li>徐正曦周丽淇</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="q5-2">
+        <div class="q5-21"><img src="tu/3-q9.jpg"></div>
+        <div class="q5-22">
+            <ul>
+                <li><img src="tu/3-q6.jpg"><span class="xie">谢娜</span>你在留长发的生涯中</li>
+                <li><img src="tu/3-q6.jpg"><span class="xie">谢娜</span>你在留长发的生涯中</li>
+                <li><img src="tu/3-q6.jpg"><span class="xie">谢娜</span>你在留长发的生涯中</li>
+            </ul>
+        </div>
+    </div>
+    <div class="q5-3">
+        <div class="q5-31"><img src="tu/3-q10.jpg"></div>
+        <div class="q5-32">
+            <ul>
+                <li>刘恺威父亲曝其即兴登记 非奉子成婚</li>
+                <li>陈思诚坦诚不愿公布喜事 笑称怕被抢头条</li>
+                <li><img src="tu/3-q12.jpg">曝刘恺威马雅舒曾同居 回应:好朋友</li>
+                <li><img src="tu/3-q12.jpg">狗仔偷拍大揭秘：安插线人 酒店蹲点</li>
+                <li><img src="tu/3-q12.jpg">章子怡情路盘点：恋爱对象折射择偶观</li>
+                <li><img src="tu/3-q12.jpg">汪峰告白情书解读：明星恋爱不容易</li>
+                <li>组图：SKE48成员短裙亮相性感秀美腿</li>
+                <li>米兰达健身大片：全心投入才有乐趣(组图)</li>
+                <li>《船工号子》作曲家去世 李双江悼词获赞</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="q6">
+    <div class="q6-1">
+        <div><img src="tu/3-q13.jpg"></div>
+        <div class="q6-11">
+            <ul>
+                <li><span class="zi2"><img src="tu/3-q14.jpg"></span>新闻大亨默多克提出离婚 传奇邓文</li>
+                <li><span class="zi3"><img src="tu/3-q15.jpg"></span>新闻大亨默多克提出离婚 传奇邓文</li>
+                <li class="zi4"><img src="tu/3-q16.jpg">新闻大亨默多克提出离婚 传奇邓文</li>
+                <li><img src="tu/3-q16.jpg">林志颖补办婚礼 58岁刘晓庆美国结</li>
+                <li><img src="tu/3-q16.jpg">郭富城熊黛林分手 郑钧刘芸结婚 </li>
+                <li><img src="tu/3-q16.jpg">张艺谋被曝再婚妻儿首曝光 00后</li>
+            </ul>
+        </div>
+    </div>
+    <div class="q6-2">
+        <div><img src="tu/3-q17.jpg"></div>
+        <div class="q6-21">
+            <ul>
+                <li><img src="tu/3-q18.jpg"></li>
+                <li><img src="tu/3-q19.jpg"></li>
+                <li><img src="tu/3-q16.jpg">刘嘉玲：了解和接受痛苦 这才是女强人</li>
+                <li><img src="tu/3-q16.jpg">徐克厌倦疯癫老怪称谓：我笑他人看不</li>
+                <li><img src="tu/3-q16.jpg">薛家燕曾婚姻失败险自杀 亲发掘哥哥</li>
+                <li><img src="tu/3-q16.jpg">辣妈孙俪自诩小女人：我与邓超还不</li>
+            </ul>
+        </div>
+    </div>
+    <div class="q6-3">
+        <div><img src="tu/3-q20.jpg"></div>
+        <div class="q6-31">
+            <ul>
+                <li><img src="tu/3-q16.jpg">麻辣娱乐揭秘十大90后清纯女星的走</li>
+                <li><img src="tu/3-q16.jpg">娱人码头盘点长相清纯遭富豪觊觎的</li>
+                <li><img src="tu/3-q16.jpg">杨贵妃揭娱乐圈婆媳关系处理不当</li>
+                <li><img src="tu/3-q16.jpg">梦笔生娱揭秘娱乐圈体味浓重的十</li>
+                <li><img src="tu/3-q16.jpg">维克盘点娱乐圈要钱不要命的10大明</li>
+                <li><img src="tu/3-q16.jpg">娱乐狗仔表面风光却欠了一屁股债的</li>
+                <li><img src="tu/3-q16.jpg">奇星小虫盘点前凸后翘“大S”身材</li>
+                <li><img src="tu/3-q16.jpg">未艾盘点分手后还继续做朋友10大明</li>
+                <li><img src="tu/3-q16.jpg">中国娃娃夫妻“最萌年龄差”至少20</li>
+                <li><img src="tu/3-q16.jpg">李守智 刘诗诗领衔假戏真做恋上男</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="q7">
+    <div class="q7-1">明星资料库</div>
+    <div class="q7-2">
+        <input type="text" size="40"> <button type="submit" class="bu1">搜索</button><br><br>
+        按字母检索： A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z<br><br>
+        按地域检索： 内地 港台 亚洲 欧美
+    </div>
+    <div class="q7-3">热门关键字:陆毅 韩雪 大S 李玟 郭德纲 周杰伦 张柏芝 严宽 方文山 孙俪 聂远 李宇春 吴奇隆 S.H.E 刘涛 姚晨 佟大为 小S Adele 安妮-海瑟薇 泰勒-斯威夫特 斯嘉丽-约翰逊 滨崎步 AKB48 福山雅治 酒井法子 苍井空 张根硕 鸟叔PSY 宋茜 宋承宪 金希澈</div>
+
+</div>
+<div class="q8">
+    <div class="q8-1"><img src="tu/3-q21.jpg"></div>
+    <div class="q8-2"><img src="tu/3-q22.jpg"></div>
+    <div class="q8-3">
+        <div class="q8-31">新闻排行</div>
+        <div class="q8-32"> 视频排行</div>
+        <div class="q8-33">
+            <ul>
+                <li>《船工号子》作曲家去世 李双江悼词获赞</li>
+                <li>温兆伦邵美琪重聚 再现《我本善良》经典</li>
+                <li>吴建豪洛杉矶大婚 摇滚范儿婚照曝光</li>
+                <li>传王菲3千万香港买房 搬离北京避李亚鹏</li>
+                <li>曝失婚王菲搬离北京 三千万买楼留香港</li>
+                <li>廖启智19岁儿子称想做女人 母亲急白头</li>
+                <li>杨丞琳出道13年 4 in love再聚首(图)</li>
+                <li>李家律师:女方称强奸者未带套射精存疑问</li>
+                <li>观月雏乃裸身穿贴身蕾丝睡衣 疑露下体</li>
+                <li>八卦阵(11月16日):章子怡汪峰亲密且大方</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div><img src="tu/3-q23.jpg"></div>
+<div class="q9">
+    <div class="q9-1">
+        <img src="tu/3-q24.jpg">
+        <div class="q9-11">
+            <div class="q9-111"><img src="tu/3-q25.jpg"></div>
+            <div class="q9-112">
+                <ul>
+                    <li>狩猎土豪不完全手册</li>
+                    <li>菲鹏离婚72小时图文还原</li>
+                    <li>菲鹏2003-2013十年情路</li>
+                    <li>李某某羁押生活独家解密</li>
+                    <li>二次元：梦鸽为儿奔走</li>
+                </ul>
+            </div>
+        </div>
+        <div class="q9-12">
+            <ul>
+                <li>话题：小S陷代言门 张馨予李晨石头情灭</li>
+                <li>八一八：女星家暴秘闻 成龙神秘身世起底</li>
+            </ul>
+        </div>
+        <img src="tu/3-q26.jpg">
+        <div class="q9-13">
+            <div class="q9-131"><img src="tu/3-q27.jpg"></div>
+            <div class="q9-132">倪妮换上当地民族服装，<br>与冯绍峰踏上云南慈善旅。<br> 详细>></div>
+        </div>
+        <img src="tu/3-q26.jpg">
+        <div class="q9-13">
+            <div class="q9-131"><img src="tu/3-q27.jpg"></div>
+            <div class="q9-132">倪妮换上当地民族服装，<br>与冯绍峰踏上云南慈善旅。<br> 详细>></div>
+        </div>
+        <div class="q9-14">
+            <ul>
+                <li>吕良伟林心如现身慈善晚宴叙旧(图)</li>
+                <li>沈星香闺风波后首亮相 暴瘦出席慈善活动</li>
+                <li>芭莎明星慈善夜举办 姚晨产后复出抢风头</li>
+            </ul>
+        </div>
+        <div><img src="tu/3-q28.jpg"></div>
+    </div>
+    <div class="q9-2">
+        <img src="tu/3-q29.jpg">
+        <div class="q9-21">
+            <ul>
+                <li>范冰冰自称能力不足 不建慈善独立基金</li>
+                <li>八卦阵(11月16日):章子怡汪峰亲密且大方</li>
+                <li><img src="tu/3-q12.jpg">视频：汪峰乘胜出击战银幕 头条不信终无缘</li>
+                <li>景甜成国际奢侈品新宠 贺岁春节档受洗礼</li>
+                <li><img src="tu/3-q12.jpg">视频：章子怡获汪峰探班 两人拉手大秀甜蜜</li>
+            </ul>
+        </div>
+        <div class="q9-21">
+            <ul>
+                <li>孕妇KTV唱歌 疑因过于兴奋唱破羊水</li>
+                <li>风花雪月香艳《群芳宴》 G奶军团爆乳露臀</li>
+                <li>窦骁热心公益任环保大使 呼吁低碳生活</li>
+                <li>叶青“醋意”祝福诗隆恋 刘诗诗安抚宠妃</li>
+                <li>海清坚持穷养儿 家里的书永远比玩具多</li>
+            </ul>
+        </div>
+        <div class="q9-22">
+            <ul>
+                <li>八卦阵(11月15日)：最萌年龄差可我已长大</li>
+                <li>杨蓉录制节目 主动出击为坏女正名(图)</li>
+                <li>潘粤明全心投入工作 尽量对得起儿子</li>
+                <li>柳岩成最抢手主持人 展女神性感魅力</li>
+                <li>马雅舒离婚四年首发声明 不想子女受影响</li>
+            </ul>
+        </div>
+        <img src="tu/3-q29.jpg">
+        <div class="q9-21">
+            <ul>
+                <li>詹妮弗-哈德森留名好莱坞星光大道</li>
+                <li>泰勒-斯威夫特献唱2013“维密”内衣秀</li>
+                <li>查尔斯王子登时代周刊 领着养老金等上岗</li>
+                <li><img src="tu/3-q12.jpg">视频：新浪娱乐对话来闹博士约翰尼-盖尔克</li>
+                <li>65岁查尔斯成英在位最久王储 拟捐养老金</li>
+            </ul>
+        </div>
+        <div class="q9-21">
+            <ul>
+                <li>阿汤哥自曝离婚原因 两位前妻成好友</li>
+                <li>外国明星热衷录制有声书 眼耳并用成时尚</li>
+                <li>凡妮莎-哈金斯与男友现身纽约 当众秀恩爱</li>
+                <li>阿汤哥否认遗弃舒莉 强调父女关系良好</li>
+                <li>库彻库尼斯将订婚 与黛米-摩尔仍没离婚</li>
+            </ul>
+        </div>
+        <div class="q9-22">
+            <ul>
+                <li>阿汤哥否认抛弃女儿 自曝天天打电话</li>
+                <li>)好莱坞男星不堪屡被提裸露戏称是性骚扰</li>
+                <li>休-杰克曼接女儿放学 戴自制头套逗爱女</li>
+                <li>76岁尼克尔森被曝昔日丰富情史 脚踩多船</li>
+                <li>应召女郎曝贾斯汀巴拿马一夜召10妓</li>
+            </ul>
+        </div>
+    </div>
+    <div class="q9-2">
+        <img src="tu/3-q29.jpg">
+        <div class="q9-21">
+            <ul>
+                <li>范冰冰自称能力不足 不建慈善独立基金</li>
+                <li>八卦阵(11月16日):章子怡汪峰亲密且大方</li>
+                <li><img src="tu/3-q12.jpg">视频：汪峰乘胜出击战银幕 头条不信终无缘</li>
+                <li>景甜成国际奢侈品新宠 贺岁春节档受洗礼</li>
+                <li><img src="tu/3-q12.jpg">视频：章子怡获汪峰探班 两人拉手大秀甜蜜</li>
+            </ul>
+        </div>
+        <div class="q9-21">
+            <ul>
+                <li>孕妇KTV唱歌 疑因过于兴奋唱破羊水</li>
+                <li>风花雪月香艳《群芳宴》 G奶军团爆乳露臀</li>
+                <li>窦骁热心公益任环保大使 呼吁低碳生活</li>
+                <li>叶青“醋意”祝福诗隆恋 刘诗诗安抚宠妃</li>
+                <li>海清坚持穷养儿 家里的书永远比玩具多</li>
+            </ul>
+        </div>
+        <div class="q9-22">
+            <ul>
+                <li>八卦阵(11月15日)：最萌年龄差可我已长大</li>
+                <li>杨蓉录制节目 主动出击为坏女正名(图)</li>
+                <li>潘粤明全心投入工作 尽量对得起儿子</li>
+                <li>柳岩成最抢手主持人 展女神性感魅力</li>
+                <li>马雅舒离婚四年首发声明 不想子女受影响</li>
+            </ul>
+        </div>
+        <img src="tu/3-q29.jpg">
+        <div class="q9-21">
+            <ul>
+                <li>詹妮弗-哈德森留名好莱坞星光大道</li>
+                <li>泰勒-斯威夫特献唱2013“维密”内衣秀</li>
+                <li>查尔斯王子登时代周刊 领着养老金等上岗</li>
+                <li><img src="tu/3-q12.jpg">视频：新浪娱乐对话来闹博士约翰尼-盖尔克</li>
+                <li>65岁查尔斯成英在位最久王储 拟捐养老金</li>
+            </ul>
+        </div>
+        <div class="q9-21">
+            <ul>
+                <li>阿汤哥自曝离婚原因 两位前妻成好友</li>
+                <li>外国明星热衷录制有声书 眼耳并用成时尚</li>
+                <li>凡妮莎-哈金斯与男友现身纽约 当众秀恩爱</li>
+                <li>阿汤哥否认遗弃舒莉 强调父女关系良好</li>
+                <li>库彻库尼斯将订婚 与黛米-摩尔仍没离婚</li>
+            </ul>
+        </div>
+        <div class="q9-22">
+            <ul>
+                <li>阿汤哥否认抛弃女儿 自曝天天打电话</li>
+                <li>)好莱坞男星不堪屡被提裸露戏称是性骚扰</li>
+                <li>休-杰克曼接女儿放学 戴自制头套逗爱女</li>
+                <li>76岁尼克尔森被曝昔日丰富情史 脚踩多船</li>
+                <li>应召女郎曝贾斯汀巴拿马一夜召10妓</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="q10">
+    <img src="tu/3-q30.jpg">
+    <div class="q10-1">
+        <div class="q10-11"><img src="tu/3-q31.jpg"></div>
+        <div class="q10-12">kim小小志</div>
+        <div class="q10-13">外形指数：3.6<br>潜力指数：<img src="tu/3-q32.jpg"></div>
+        <div> <br><br><button type="submit" class="bu2">投票</button></div>
+    </div>
+    <div class="q10-1">
+        <div class="q10-11"><img src="tu/3-q31.jpg"></div>
+        <div class="q10-12">天天</div>
+        <div class="q10-13">外形指数：2.1<br>潜力指数：<img src="tu/3-q33.jpg"></div>
+        <div> <br><br><button type="submit" class="bu2">投票</button></div>
+    </div>
+    <div class="q10-1">
+        <div class="q10-11"><img src="tu/3-q31.jpg"></div>
+        <div class="q10-12">田雨橙</div>
+        <div class="q10-13">外形指数：2.1<br>潜力指数：<img src="tu/3-q34.jpg"></div>
+        <div> <br><br><button type="submit" class="bu2">投票</button></div>
+    </div>
+    <div class="q10-1">
+        <div class="q10-11"><img src="tu/3-q31.jpg"></div>
+        <div class="q10-12">王诗龄</div>
+        <div class="q10-13">外形指数：1.2<br>潜力指数：<img src="tu/3-q35.jpg"></div>
+        <div> <br><br><button type="submit" class="bu2">投票</button></div>
+    </div>
+    <div class="q10-1">
+        <div class="q10-11"><img src="tu/3-q31.jpg"></div>
+        <div class="q10-12">郭子睿</div>
+        <div class="q10-13">外形指数：1.2<br>潜力指数：<img src="tu/3-q36.jpg"></div>
+        <div> <br><br><button type="submit" class="bu2">投票</button></div>
+    </div>
+</div>
+</body>
+</html>

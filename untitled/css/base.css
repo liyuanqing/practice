@@ -1,0 +1,154 @@
+.head{
+    width: 1280px;
+    height: 70px;
+}
+.logo{
+    position: absolute;
+    left: 150px;
+    top:30px;
+}
+ul.menu{
+    position: relative;
+    /*right: 180px;*/
+    margin: 30px 0px 0px 500px;
+}
+ul.menu li{
+    float: left;
+    list-style: none;
+    background-color: white;
+    color: grey;
+    font-family: 宋体;
+    font-size: 20px;
+    height: 30px;
+    padding: 10px 0px 0px 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+ul.menu li:hover{
+    background-color: #696969;
+    color: white;
+}
+.home,.about,.blog{
+    width: 52px;
+}
+.services,{
+    width: 83px;
+}
+.portfolio{
+    width: 100px;
+}
+.contact{
+    width: 89px;
+}
+.pages{
+    width:70px;
+}
+.menu_1,.menu_2, .menu_3{
+    display: none;
+    height: 30px;
+}
+ul.menu_1 li{
+    /*float: left;*/
+    list-style: none;
+    background-color: #696969;
+    color: white;
+    font-family: 宋体;
+    font-size: 12px;
+    height: 30px;
+    padding: 15px 0px 0px 12px;
+    width: 128px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+
+}
+.menu_1{
+    position: relative;
+    left: -50px;
+}
+ul.menu_1 li:hover{
+    background-color:black ;
+}
+ul.menu li:hover .menu_1{
+    display: block;
+}
+footer{
+    width: 1280px;
+    height: 369px;
+    background-color: #303030;
+    clear: both;
+}
+.logo2{
+    float: left;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 30px;
+    /*background-color: red;*/
+}
+.adress{
+    width: 215px; ;
+    height:329px ;
+    padding:40px 20px 0px 30px;
+    /*background-color: red;*/
+    float: left;
+}
+.adress1{
+    border-bottom: 5px solid grey;
+    padding-bottom: 13px;
+    font-size: 25px;
+    color: white;
+}
+.address-icon{
+    font-size: 13px;
+    color: white;
+    font-family: 黑体, Arial;
+    font-weight: 700;
+    margin-left: -30px;
+}
+.phone-icon{
+    font-size: 13px;
+    color: white;
+    font-family: 黑体, Arial;
+    font-weight: 700;
+    margin-left: -30px;
+}
+.email-icon{
+    font-size: 13px;
+    color: white;
+    font-family: 黑体, Arial;
+    font-weight: 700;
+    margin-left: -30px;
+}
+.company{
+    width: 215px; ;
+    height:329px ;
+    padding:40px 20px 0px 30px;
+    /*background-color: red;*/
+    float: left;
+}
+.company1{
+    border-bottom: 5px solid grey;
+    padding-bottom: 13px;
+    font-size: 25px;
+    color: white;
+}
+ul.hyperion li{
+    list-style-type: none;
+    color: white;
+    font-family: 黑体, Arial;
+    font-weight: 700;
+    margin-left: -30px;
+}
+.flicker{
+    width: 215px; ;
+    height:329px ;
+    padding:40px 20px 0px 30px;
+    /*background-color: red;*/
+    float: left;
+}
+.flicker1{
+    border-bottom: 5px solid grey;
+    padding-bottom: 13px;
+    font-size: 25px;
+    color: white;
+}

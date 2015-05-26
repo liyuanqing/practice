@@ -1,0 +1,201 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head lang="en">-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title></title>-->
+    <!--<style>-->
+        <!--.header{-->
+            <!--width: 80%;-->
+            <!--height: 100px;-->
+            <!--border: 1px solid black;-->
+            <!--/*min-width: 500px;*/-->
+            <!--/*max-width: 700px;*/-->
+        <!--}-->
+        <!--.q1{-->
+            <!--width: 80%;-->
+            <!--height: 504px;-->
+            <!--border: 1px solid black;-->
+            <!--/*display: table;*/-->
+            <!--/*position: relative;*/-->
+        <!--}-->
+        <!--.content{-->
+            <!--width: 70%;-->
+            <!--height: 500px;-->
+            <!--border: 1px solid black;-->
+            <!--float: left;-->
+            <!--/*display: table-cell;*/-->
+
+
+            <!--/*position: absolute;*/-->
+            <!--/*top: 0;*/-->
+            <!--/*left: 0;*/-->
+        <!--}-->
+        <!--.side{-->
+            <!--width: 300px;-->
+            <!--/*height: 500px;*/-->
+            <!--border: 1px solid black;-->
+            <!--float: right;-->
+            <!--/*display: table-cell;*/-->
+            <!--/*position: absolute;*/-->
+            <!--/*top: 0;*/-->
+            <!--/*right: 0;*/-->
+        <!--}-->
+        <!--.footer{-->
+            <!--width: 80%;-->
+            <!--height: 100px;-->
+            <!--border: 1px solid black;-->
+            <!--clear: both;-->
+
+        <!--}-->
+    <!--</style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="header"></div>-->
+<!--<div class="q1">-->
+<!--<div class="content"></div>-->
+<!--<div class="side">asfuasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTasfuewigtfugewgREHERHYERHTewigtfugewgREHERHYERHT </div>-->
+<!--</div>-->
+<!--<div class="footer"></div>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--变宽布局-->
+    <style>
+        /* 等比例变宽*/
+        /*.header{*/
+        /*width: 80%;*/
+        /*height: 100px;*/
+        /*border: 1px solid #ff1719;*/
+
+        /*}*/
+        /*.container{*/
+        /*width: 80%;*/
+        /*height: 400px;*/
+        /*border: 1px solid #847a0f;*/
+
+
+        /*}*/
+        /*.content{*/
+        /*width: 70%;*/
+        /*height: 400px;*/
+        /*border: 1px solid #2f6bff;*/
+        /*float: left;*/
+
+        /*}*/
+        /*.side{*/
+        /*width: 250px;*/
+        /*height: 400px;*/
+        /*border: 1px solid #1aff0d;*/
+        /*float: right;*/
+        /*}*/
+        /*.footer{*/
+        /*width: 80%;*/
+        /*height: 100px;*/
+        /*border: 1px solid #ff1719;*/
+        /*clear: both;*/
+
+        /*}*/
+        /*单列固定*/
+        /*定位法*/
+        /*.header{*/
+        /*width: 80%;*/
+        /*height: 100px;*/
+        /*border: 1px solid #ff1719;*/
+
+        /*}*/
+        /*.container{*/
+        /*width: 80%;*/
+        /*height: 400px;*/
+        /*border: 1px solid #847a0f;*/
+        /*position: relative;*/
+
+        /*}*/
+        /*.content{*/
+        /*width: 70%;*/
+        /*height: 400px;*/
+        /*border: 1px solid #2f6bff;*/
+        /*float: left;*/
+        /*margin-right: 260px;*/
+        /*}*/
+        /*.side{*/
+        /*width: 250px;*/
+        /*height: 400px;*/
+        /*border: 1px solid #1aff0d;*/
+        /*float: right;*/
+        /*position: absolute;*/
+        /*top:0;*/
+        /*right: 0;*/
+        /*}*/
+        /*.footer{*/
+        /*width: 80%;*/
+        /*height: 100px;*/
+        /*border: 1px solid #ff1719;*/
+        /*clear: both;*/
+
+        /*}*/
+        /*优化-浮动*/
+        .header{
+            width: 80%;
+            height: 100px;
+            border: 1px solid #ff1719;
+
+        }
+        .container{
+            width: 80%;
+            height: 400px;
+            border: 1px solid #847a0f;
+        }
+        .content_wrap{
+            width: 100%;
+            float: left;
+            border: 2px solid #1aff0d;
+            margin-left: -270px;
+        }
+        .content{
+            /*width: 70%;*/
+            min-height: 400px;
+            border: 1px solid #2f6bff;
+            margin-left: 270px;
+
+        }
+        .side{
+            width: 250px;
+            border: 1px solid #1aff0d;
+            float: right;
+        }
+        .footer{
+            width: 80%;
+            height: 100px;
+            border: 1px solid #ff1719;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="header"></div>
+<div class="container">
+    <div class="content_wrap">
+        <div class="content">
+            是否是发送到发送到是否是发发送到 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到
+            是否是发送到发送到是否是发发送到 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到
+
+
+        </div>
+    </div>
+
+
+
+    <div class="side">
+        是否是发送到发送到是否是发发送到 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发 是否是发送到发送到是否是发发送到发送到是否是发送到发发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到是否是发送到发送到
+
+    </div>
+</div>
+<div class="footer"></div>
+</body>
+</html>

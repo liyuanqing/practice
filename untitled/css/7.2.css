@@ -1,0 +1,300 @@
+.home-wrapper{
+    width: 50px;
+    height:25px ;
+    font-size: 18px;
+    color: black;
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    margin-left: 150px;
+    float: left;
+}
+.portfolio-wrapper{
+    width: 90px;
+    height:25px ;
+    font-size: 18px;
+    color: black;
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.portfolio2-wrapper {
+    width: 180px;
+    height: 25px;
+    font-size: 18px;
+    color: black;
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.pf-filter ul li{
+    float: left;
+   background-color: white;
+    list-style: none;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.j1{
+    width: 50px;
+    margin-left: 150px;
+}
+.j2{
+    width: 110px;
+}
+.j3{
+    width: 110px;
+}
+.j4{
+    width: 140px;
+}
+.pf-filter ul li:hover{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.tu1{
+    width: 501px;
+    height: 403px;
+    margin-left: 150px;
+    margin-top: -403px;
+    position: relative;
+    float: left;
+}
+.mbb1{
+    position: absolute;
+    left: 1px;
+}
+.mbb2{
+    width: 501px;
+    height: 403px;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    left: 1px;
+    display: none;
+    /*float: left;*/
+}
+.mbb3{
+    margin-left: 0px;
+    margin-top: -50px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    display: none;
+}
+.zi1{
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: 270px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.zi2{
+    width: 360px;
+    height: 50px;
+    background-color: lightgray;
+    position: absolute;
+    top: 300px;
+    border-radius: 5px;
+    color: white;
+}
+.tu1:hover .mbb2{
+    display: block;
+}
+.tu1:hover .mbb3 {
+    display: block;
+}
+.tu2{
+    width: 501px;
+    height: 403px;
+    margin-left: 670px;
+    position: relative;
+    float: left;
+}
+.tu2:hover .mbb2{
+    display: block;
+}
+.tu2:hover .mbb3 {
+    display: block;
+}
+.tu3{
+    width: 501px;
+    height: 403px;
+    margin-left: 150px;
+    /*margin-top: -403px;*/
+    position: relative;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+}
+.mbb1{
+    position: absolute;
+    left: 1px;
+}
+.mbb2{
+    width: 501px;
+    height: 403px;
+    background-color: white;
+    opacity: 0.4;
+    position: absolute;
+    left: 1px;
+    display: none;
+    /*float: left;*/
+}
+.mbb3{
+    margin-left: 0px;
+    margin-top: -50px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+    display: none;
+}
+.zi1{
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    position: absolute;
+    top: 270px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+.zi2{
+    width: 360px;
+    height: 50px;
+    background-color: lightgray;
+    position: absolute;
+    top: 300px;
+    border-radius: 5px;
+    color: white;
+}
+.tu3:hover .mbb2{
+    display: block;
+}
+.tu3:hover .mbb3 {
+    display: block;
+}
+.tu4{
+    width: 501px;
+    height: 403px;
+    margin-left: 670px;
+    position: relative;
+    float: left;
+    margin-top: -403px;
+    /*margin-top: 20px;*/
+}
+.tu4:hover .mbb2{
+    display: block;
+}
+.tu4:hover .mbb3 {
+    display: block;
+}
+.tu5{
+    width: 501px;
+    height: 403px;
+    margin-left: 150px;
+    /*margin-top: -403px;*/
+    position: relative;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+}
+
+.tu5:hover .mbb2{
+    display: block;
+}
+.tu5:hover .mbb3 {
+    display: block;
+}
+.tu6{
+    width: 501px;
+    height: 403px;
+    margin-left: 670px;
+    position: relative;
+    float: left;
+    margin-top: -403px;
+    /*margin-top: 20px;*/
+}
+.tu6:hover .mbb2{
+    display: block;
+}
+.tu6:hover .mbb3 {
+    display: block;
+}
+.tu7{
+    width: 501px;
+    height: 403px;
+    margin-left: 150px;
+    /*margin-top: -403px;*/
+    position: relative;
+    float: left;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tu7:hover .mbb2{
+    display: block;
+}
+.tu7:hover .mbb3 {
+    display: block;
+}
+.tu8{
+    width: 501px;
+    height: 403px;
+    margin-left: 670px;
+    position: relative;
+    float: left;
+    margin-top: -403px;
+    margin-bottom: 20px;
+    /*margin-top: 20px;*/
+}
+.tu8:hover .mbb2{
+    display: block;
+}
+.tu8:hover .mbb3 {
+    display: block;
+}
+.name{
+    width: 250px;
+    height: 30px;
+}
+span{
+    color: red;
+}
+/*.table01 tr{*/
+    /*padding-top: 20px;*/
+/*}*/
+.q{
+    height: 20px;
+}
+.name2{
+    width: 415px;
+    height: 150px;
+}
+.table01{
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+.box{
+    border: 1px solid black;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box:hover{
+    box-shadow: 10px 10px 5px #888888;
+}

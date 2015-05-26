@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .q1{
+            width: 1280px;
+            height: 40px;
+            background-color: orangered;
+        }
+        .q1-1{
+            width: 190px;
+            height:20px ;
+            background-color: orangered;
+            float: left;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 150px;
+            font-family: "黑体", "Arial";
+            color: white;
+        }
+        ul.q1-2 li{
+            width: 75px;
+            height:20px ;
+            background-color: orangered;
+            float: left;
+            list-style: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 15px;
+            font-family: "黑体", "Arial";
+            color: white;
+        }
+        .q1-21:hover{
+            background-color: #a70000;
+        }
+        .q2{
+            width: 190px;
+            height: 408px;
+            /*border-bottom: 2px solid orangered;*/
+            /*border-left: 2px solid orangered;*/
+            /*border-right: 2px solid orangered;*/
+            position: absolute;
+            left: 150px;
+        }
+        .q2-1{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            /*border-bottom: 2px solid orangered;*/
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-2{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            /*border-bottom: 2px solid orangered;*/
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-3{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-4{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-11{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-12{
+            width:230px ;
+            height: 62px;
+            /*background-color: red;*/
+            border-bottom: 1px solid lightgray;
+            margin-left: 20px;
+        }
+        .q2-121{
+            font-size: 25px;
+        }
+        .q2-122{
+            color: lightgray;
+            font-size: 12px;
+        }
+        .q2-13{
+            width: 230px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        ul.q2-131 li{
+            width: 80px;
+            height: 30px;
+            float: left;
+            list-style: none;
+            font-size: 15px;
+            font-family: "黑体", "Arial";
+        }
+        ul.q2-131 li:hover{
+            color: orangered;
+        }
+        .q2-14{
+            width: 190px;
+            height: 150px;
+            /*float: right;*/
+            position: absolute;
+            left: 270px;
+            bottom: 20px;
+            padding-left: 20px;
+            border-left: 1px solid lightgray;
+            /*bottom: 150px;*/
+        }
+        .q2-1:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-1:hover .q2-11{
+            display: block;
+        }
+        .q2-21{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-22{
+            width:230px ;
+            height: 62px;
+            /*background-color: red;*/
+            border-bottom: 1px solid lightgray;
+            margin-left: 20px;
+        }
+        .q2-221{
+            font-size: 25px;
+        }
+        .q2-222{
+            color: lightgray;
+            font-size: 12px;
+        }
+        .q2-23{
+            width: 230px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        ul.q2-231 li{
+            width: 80px;
+            height: 30px;
+            float: left;
+            list-style: none;
+            font-size: 15px;
+            font-family: "黑体", "Arial";
+        }
+        ul.q2-231 li:hover{
+            color: orangered;
+        }
+        .q2-24{
+            width: 190px;
+            height: 150px;
+            /*float: right;*/
+            position: absolute;
+            left: 270px;
+            bottom: 20px;
+            padding-left: 20px;
+            border-left: 1px solid lightgray;
+            /*bottom: 150px;*/
+        }
+        .q2-2:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-2:hover .q2-21{
+            display: block;
+        }
+        .q2-31{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-32{
+            width:230px ;
+            height: 62px;
+            /*background-color: red;*/
+            border-bottom: 1px solid lightgray;
+            margin-left: 20px;
+        }
+        .q2-321{
+            font-size: 25px;
+        }
+        .q2-322{
+            color: lightgray;
+            font-size: 12px;
+        }
+        .q2-33{
+            width: 230px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        ul.q2-331 li{
+            width: 80px;
+            height: 30px;
+            float: left;
+            list-style: none;
+            font-size: 15px;
+            font-family: "黑体", "Arial";
+        }
+        ul.q2-331 li:hover{
+            color: orangered;
+        }
+        .q2-34{
+            width: 190px;
+            height: 150px;
+            /*float: right;*/
+            position: absolute;
+            left: 270px;
+            bottom: 20px;
+            padding-left: 20px;
+            border-left: 1px solid lightgray;
+            /*bottom: 150px;*/
+        }
+        .q2-3:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-3:hover .q2-31{
+            display: block;
+        }
+        .q2-41{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-42{
+            width:230px ;
+            height: 62px;
+            /*background-color: red;*/
+            border-bottom: 1px solid lightgray;
+            margin-left: 20px;
+        }
+        .q2-421{
+            font-size: 25px;
+        }
+        .q2-422{
+            color: lightgray;
+            font-size: 12px;
+        }
+        .q2-43{
+            width: 230px;
+            height: 100px;
+            margin-left: 20px;
+        }
+        ul.q2-431 li{
+            width: 80px;
+            height: 30px;
+            float: left;
+            list-style: none;
+            font-size: 15px;
+            font-family: "黑体", "Arial";
+        }
+        ul.q2-431 li:hover{
+            color: orangered;
+        }
+        .q2-44{
+            width: 190px;
+            height: 150px;
+            /*float: right;*/
+            position: absolute;
+            left: 270px;
+            bottom: 20px;
+            padding-left: 20px;
+            border-left: 1px solid lightgray;
+            /*bottom: 150px;*/
+        }
+        .q2-4:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-4:hover .q2-41{
+            display: block;
+        }
+        .q2-5{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-51{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-5:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-5:hover .q2-51{
+            display: block;
+        }
+        .q2-6{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-61{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-6:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-6:hover .q2-61{
+            display: block;
+        }
+        .q2-7{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-71{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: 0px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-7:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-7:hover .q2-71{
+            display: block;
+        }
+        .q2-8{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-81{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: -40px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-8:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-8:hover .q2-81{
+            display: block;
+
+        }
+        .q2-9{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+        }
+        .q2-91{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: -80px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-9:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-9:hover .q2-91{
+            display: block;
+        }
+        .q2-q{
+            width: 156px;
+            height: 25px;
+            background-color: whitesmoke;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            padding-left: 30px;
+            padding-top: 10px;
+            position: relative;
+            border-left: 2px solid orangered;
+            border-right: 2px solid orangered;
+            border-bottom:2px solid orangered ;
+        }
+        .q2-q1{
+            width: 520px;
+            height: 200px;
+            border-right: 2px solid orange;
+            border-bottom:2px solid orange;
+            position: absolute;
+            top: -120px;
+            left: 192px;
+            background-color: #ffefe9;
+            display: none;
+        }
+        .q2-q:hover {
+            background-color: #ffefe9 ;
+            border-right: 0px;
+        }
+        .q2-q:hover .q2-q1{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="q1">
+    <div class="q1-1">商品分类</div>
+    <ul class="q1-2">
+        <li class="q1-21"> 首页</li>
+        <li class="q1-21"> 优惠活动</li>
+        <li class="q1-21"> 站长素材 </li>
+        <li class="q1-21"> 站长素材 </li>
+        <li class="q1-21"> JS代码</li>
+        <li class="q1-21"> 关于我 </li>
+        <li class="q1-21"> 联系我们 </li>
+        <li class="q1-21"> 在线留言</li>
+    </ul>
+</div>
+<div class="q2">
+    <div class="q2-1">LOGO
+        <div class="q2-11">
+            <div class="q2-12"><span class="q2-121">logo</span><br><span class="q2-122">两大超值套餐任选，最低只需588元</span></div>
+            <div class="q2-13">
+                <ul class="q2-131">
+                    <li class="q2-1311">logo设计</li>
+                    <li class="q2-1311">logo案例</li>
+                    <li class="q2-1311">logo常识</li>
+                    <li class="q2-1311">logo</li>
+                </ul>
+            </div>
+            <div class="q2-14">促销活动<br><img src="tu/6-q1.jpg"></div>
+        </div>
+        <!--<ul class="q2-11">-->
+            <!--<li> LOGO设计 </li>-->
+            <!--<li> LOGO案例 </li>-->
+            <!--<li> LOGO常识 </li>-->
+            <!--<li> VI常识 </li>-->
+        <!--</ul>-->
+    </div>
+    <div class="q2-2">名片
+        <div class="q2-21">
+            <div class="q2-22"><span class="q2-221">名片</span><br><span class="q2-222">免费在线设计，全国包邮</span></div>
+            <div class="q2-23">
+                <ul class="q2-231">
+                    <li class="q2-2311">名片设计</li>
+                    <li class="q2-2311">名片印刷</li>
+                    <li class="q2-2311">名片模板</li>
+                    <li class="q2-2311">名片欣赏</li>
+                </ul>
+            </div>
+            <div class="q2-24">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-3">宣传单
+        <div class="q2-31">
+            <div class="q2-32"><span class="q2-321">宣传单</span><br><span class="q2-322">快速设计，高效印刷。</span></div>
+            <div class="q2-33">
+                <ul class="q2-331">
+                    <li class="q2-3311">宣传单设计</li>
+                    <li class="q2-3311">宣传单印刷</li>
+                    <li class="q2-3311">宣传单模板</li>
+                    <li class="q2-3311">宣传单常识</li>
+                </ul>
+            </div>
+            <div class="q2-34">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-4">画册
+        <div class="q2-41">
+            <div class="q2-42"><span class="q2-421">画册</span><br><span class="q2-422">设计印刷，一站式服务。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">画册设计</li>
+                    <li class="q2-4311">画册印刷</li>
+                    <li class="q2-4311">画册欣赏</li>
+                    <li class="q2-4311">画册常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-5">优惠券
+        <div class="q2-51">
+            <div class="q2-42"><span class="q2-421">优惠券</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">优惠券设计</li>
+                    <li class="q2-4311">优惠券印刷</li>
+                    <li class="q2-4311">优惠券欣赏</li>
+                    <li class="q2-4311">优惠券常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-6">会员卡
+        <div class="q2-61">
+            <div class="q2-42"><span class="q2-421">会员卡</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">会员卡设计</li>
+                    <li class="q2-4311">会员卡印刷</li>
+                    <li class="q2-4311">会员卡欣赏</li>
+                    <li class="q2-4311">会员卡常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-7">不干胶贴
+        <div class="q2-71">
+            <div class="q2-42"><span class="q2-421">不干胶贴</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">不干胶设计</li>
+                    <li class="q2-4311">不干胶印刷</li>
+                    <li class="q2-4311">不干胶欣赏</li>
+                    <li class="q2-4311">不干胶常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-8">手提袋
+        <div class="q2-81">
+            <div class="q2-42"><span class="q2-421">手提袋</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">手提袋设计</li>
+                    <li class="q2-4311">手提袋印刷</li>
+                    <li class="q2-4311">手提袋欣赏</li>
+                    <li class="q2-4311">手提袋常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-9">封袋
+        <div class="q2-91">
+            <div class="q2-42"><span class="q2-421">封袋</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">封袋设计</li>
+                    <li class="q2-4311">封袋印刷</li>
+                    <li class="q2-4311">封袋欣赏</li>
+                    <li class="q2-4311">封袋常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+    <div class="q2-q">喜帖
+        <div class="q2-q1">
+            <div class="q2-42"><span class="q2-421">喜帖</span><br><span class="q2-422">设计18元起，全国包邮。</span></div>
+            <div class="q2-43">
+                <ul class="q2-431">
+                    <li class="q2-4311">喜帖设计</li>
+                    <li class="q2-4311">喜帖印刷</li>
+                    <li class="q2-4311">喜帖欣赏</li>
+                    <li class="q2-4311">喜帖常识</li>
+                </ul>
+            </div>
+            <div class="q2-44">促销活动<br><img src="tu/6-q2.jpg"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
