@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .d20{
+            position: relative;
+            top: 150px;
+            left: 100px;
+            width: 300px;
+            height: 300px;
+            border: 1px solid #b6b6b6;
+            background: -webkit-gradient(linear,0% 10%,0% 100%,from(#ffffff),to(#ffffff),color-stop(0.1,#f3f3f3));
+            box-shadow: inset 0 3px 30px #e6e6e6,
+            0 0 15px #CCCCCC;
+            border-radius: 0px 0px 60px 0/0px 0px 10px 0;
+            /*z-index: 1;*/
+        }
+        .d20:after{
+            content: '';
+            display: block;
+            width: 280px;
+            height: 300px;
+            border-bottom: 1px solid #b6b6b6;
+            border-right: 1px solid #b6b6b6;
+            /*background-color: black;*/
+            /*transform: skew(10deg,0deg);*/
+            transform: skew(2deg,5deg);
+            position: absolute;
+            top: 12px;
+            left: 24px;
+            z-index: -1;
+
+        }
+        .d20:before{
+            content: '';
+            display: block;
+            width: 260px;
+            height: 200px;
+            border-bottom: 1px solid  #b6b6b6;
+            border-right: 1px solid  #b6b6b6;
+            /*background-color: black;*/
+            /*transform: skew(10deg,0deg);*/
+            transform: skew(2deg,3deg);
+            position: absolute;
+            top: 105px;
+            left: 40px;
+            z-index: -1;
+        }
+        .q1{
+            width: 50px;
+            height: 160px;
+            background-color:transparent;
+            border-left: 1px solid #CCCCCC;
+            border-right:1px solid #CCCCCC ;
+            border-top: 1px dashed #CCCCCC;
+            border-bottom:1px dashed #CCCCCC ;
+            box-shadow:0 0 10px #CCCCCC;
+            position: absolute;
+            top: -49px;
+            transform:rotate(55deg);
+            /*left: 1000px;*/
+            /*z-index: 1;*/
+        }
+    </style>
+</head>
+<body>
+<div class="d20"><p>Effect</p>
+  <div class="q1"></div>
+</div>
+</body>
+</html>

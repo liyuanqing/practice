@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .d0{
+            width: 200px;
+            height: 50px;
+            border-radius: 25px;
+            background-color: black;
+        }
+        .d0 input[type="checkbox"]{
+            display: none;
+        }
+        .d0 label[for="check01"]{
+            display:block ;
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            /*border-radius: 0 0 30px 15px white inset;*/
+            box-shadow: 0 1px 5px 0px  gray  ;
+            background: -webkit-gradient(linear,left top,left bottom ,
+            from(gray),to(gainsboro));
+            position: relative;
+            top: -2px;
+            left: 0px;
+            -webkit-transition: all 0.5s linear;
+            cursor: pointer;
+        }
+        .d0 input[type="checkbox"]:checked+label{
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+<div class="d0">
+<input type="checkbox" id="check01">
+<label for="check01"></label>
+</div>
+</body>
+</html>
