@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .q1{
+            width: 500px;
+            height: 300px;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            perspective: 1500px;
+        }
+        .box{
+            transform-style: preserve-3d;
+            perspective: 1500px;
+        }
+        @-webkit-keyframes  zhuan{
+            from{
+                -webkit-transform: rotateY(0deg) ;
+        }
+            to{
+                -webkit-transform: rotateY(360deg) ;
+            }
+        }
+        .box:hover{
+            -webkit-animation:zhuan 10s linear infinite;
+        }
+        .q1 div{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            transition: opacity 1s, transform 1s;
+            position: absolute;
+            bottom: 0;
+        }
+        .w1{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateY(0deg) translateZ(195.838554845096px);
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            /*transition: opacity 1s, transform 1s;*/
+            position: absolute;
+            bottom: 0;
+        }
+        /*.w1:hover{*/
+            /*-webkit-transform: rotateY(360deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w2{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateY(40deg) translateZ(195.838554845096px);
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            position: absolute;
+            bottom: 0;
+        }
+        /*.w2:hover{*/
+            /*-webkit-transform: rotateY(400deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w3{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateY(80deg) translateZ(195.838554845096px);
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            /*transition: opacity 1s, transform 1s;*/
+            position: absolute;
+            bottom: 0;
+        }
+        /*.w3:hover{*/
+            /*-webkit-transform: rotateY(440deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w4{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            /*transition: opacity 1s, transform 1s;*/
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(120deg) translateZ(195.838554845096px);
+        }
+        /*.w4:hover{*/
+            /*-webkit-transform: rotateY(480deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w5{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            /*transition: opacity 1s, transform 1s;*/
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(160deg) translateZ(195.838554845096px);
+        }
+        /*.w5:hover{*/
+            /*-webkit-transform: rotateY(520deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w6{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            /*transition: opacity 1s, transform 1s;*/
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(200deg) translateZ(195.838554845096px);
+        }
+        /*.w6:hover{*/
+            /*-webkit-transform: rotateY(560deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w7{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            transition: opacity 1s, transform 1s;
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(240deg) translateZ(195.838554845096px);
+        }
+        /*.w7:hover{*/
+            /*-webkit-transform: rotateY(600deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w8{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            transition: opacity 1s, transform 1s;
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(280deg) translateZ(195.838554845096px);
+        }
+        /*.w8:hover{*/
+            /*-webkit-transform: rotateY(640deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        .w9{
+            transform-style: preserve-3d;
+            width: 128px;
+            height: 86px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.5);
+            transition: opacity 1s, transform 1s;
+            position: absolute;
+            bottom: 0;
+            -webkit-transform: rotateY(320deg) translateZ(195.838554845096px);
+        }
+        /*.w9:hover{*/
+            /*-webkit-transform: rotateY(680deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+        /*.w10{*/
+            /*transform-style: preserve-3d;*/
+            /*width: 128px;*/
+            /*height: 86px;*/
+            /*box-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+            /*transition: opacity 1s, transform 1s;*/
+            /*position: absolute;*/
+            /*bottom: 0;*/
+            /*-webkit-transform: rotateY(320deg) translateZ(195.838554845096px);*/
+        /*}*/
+        /*.w10:hover{*/
+            /*-webkit-transform: rotateY(720deg) translateZ(195.838554845096px);*/
+            /*transition:  all 4s linear;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="q1">
+    <div class="box">
+    <img src="img/mm4.jpg" class="w1">
+    <img src="img/mm4.jpg" class="w2">
+    <img src="img/mm4.jpg" class="w3">
+    <img src="img/mm4.jpg" class="w4">
+    <img src="img/mm4.jpg" class="w5">
+    <img src="img/mm4.jpg" class="w6">
+    <img src="img/mm4.jpg" class="w7">
+    <img src="img/mm4.jpg" class="w8">
+    <img src="img/mm4.jpg" class="w9">
+    <!--<img src="img/mm4.jpg" class="w10">-->
+    <!--<img src="img/mm4.jpg" class="w11">-->
+    <!--<img src="img/mm4.jpg" class="w12">-->
+    </div>
+</div>
+</body>
+</html>

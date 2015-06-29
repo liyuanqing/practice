@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background-color: #f9f4f0;
+        }
+        .zhongxin{
+            width: 46px;
+            height: 46px;
+            border-radius: 23px;
+            border: 1px solid gray;
+            position: relative;
+            margin-left: 300px;
+            margin-top: 200px;
+        }
+        .zhongxin1{
+            width: 36px;
+            height: 36px;
+            border-radius: 18px;
+            background-color: rgba(255, 0, 0, 0.59);
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+        .q1{
+            width: 6px;
+            height: 18px;
+            /*transform: rotate(90deg);*/
+            position: absolute;
+            background-color: white;
+            top: 10px;
+            left: 15px;
+        }
+        .q2{
+            width: 6px;
+            height: 18px;
+            transform: rotate(-90deg);
+            position: absolute;
+            background-color: white;
+            top: 10px;
+            left: 15px;
+        }
+        .zhongxin:hover{
+            transform: rotate(45deg);
+        }
+
+        .q3{
+            width: 290px;
+            height: 290px;
+            border-radius: 145px;
+            border: 1px solid transparent;
+            position: absolute;
+           top: -122px;
+            left: -122px;
+        }
+        .q4{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+        }
+        .zhongxin:hover .q4{
+            /*-webkit-animation: tanchu1 2s 1;*/
+            top: -132px;
+            transition: all 1s linear;
+            border: 1px solid gray;
+        }
+        .zhongxin:hover .q4-1{
+            background-color: black;
+        }
+        .q4-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q5{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+        }
+        .zhongxin:hover .q5{
+            /*-webkit-animation: tanchu1 2s 1;*/
+            top: -100px;
+            left: 95px;
+            transition: all 1s linear;
+            border: 1px solid gray;
+        }
+        .zhongxin:hover .q5-1{
+            background-color: black;
+        }
+        .q5-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q6{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            position: absolute;
+            top: 1px;
+            left:1px;
+        }
+        .zhongxin:hover .q6{
+            top: -130px;
+            left: 65px;
+            transition: all 1s linear;
+            border: 1px solid gray;
+        }
+        .zhongxin:hover .q6-1{
+            background-color: black;
+        }
+        .q6-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q7{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            position: absolute;
+            top: 1px;
+            left:1px;
+        }
+        .zhongxin:hover .q7{
+            /*-webkit-animation: tanchu1 2s 1;*/
+            top: -70px;
+            left: 130px;
+            transition: all 1s linear;
+            border: 1px solid gray;
+        }
+        .zhongxin:hover .q7-1{
+            background-color: black;
+        }
+        .q7-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q8{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            /*border: 1px solid gray;*/
+            position: absolute;
+            top: 1px;
+            left:1px;
+            /*display: none;*/
+        }
+        .zhongxin:hover .q8{
+            /*-webkit-animation: tanchu1 2s 1;*/
+            border: 1px solid gray;
+            display: block;
+            top: -30px;
+            left: 150px;
+            transition: all 1s linear;
+
+            /*display: block;*/
+        }
+        .zhongxin:hover .q8-1{
+            background-color: black;
+        }
+        .q8-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            /*background-color: black;*/
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q9{
+            width: 34px;
+            height: 34px;
+            border-radius: 17px;
+            position: absolute;
+            top: 1px;
+            left:1px;
+            display: none;
+        }
+        .zhongxin:hover .q9{
+            top: 10px;
+            left: 152px;
+            border: 1px solid gray;
+            transition: all 1s linear;
+        }
+        .zhongxin:hover .q9-1{
+            background-color: black;
+        }
+        .q9-1{
+            width: 26px;
+            height: 26px;
+            border-radius: 13px;
+            position: absolute;
+            top: 4px;
+            left: 4px;
+        }
+        .q7:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q7-1:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q8:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q8-1:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q6:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q6-1:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q5:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q5-1:hover{
+            opacity: 0;
+            transform: scale(2,2);
+            transition: all 0.5s linear;
+        }
+        .q4:hover{
+            opacity: 0;
+            transform: scale(2,2) rotate(720deg);
+            transition: all 0.5s linear;
+        }
+        .q4-1:hover{
+            opacity: 0;
+            transform: scale(2,2) rotate(720deg);
+            transition: all 0.5s linear;
+        }
+    </style>
+</head>
+<body>
+<div class="zhongxin">
+    <div class="zhongxin1">
+        <div class="q1"></div>
+        <div class="q2"></div>
+        <div class="q3"></div>
+        <div class="q4">
+            <div class="q4-1"></div>
+        </div>
+        <div class="q5">
+            <div class="q5-1"></div>
+        </div>
+        <div class="q6">
+            <div class="q6-1"></div>
+        </div>
+        <div class="q7">
+            <div class="q7-1"></div>
+        </div>
+        <div class="q8">
+            <div class="q8-1"></div>
+        </div>
+        <div class="q9">
+            <div class="q9-1"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

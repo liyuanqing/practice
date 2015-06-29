@@ -1,6 +1,6 @@
 .bj{
     width: 100%;
-    height: 1050px;
+    min-height: 100px;
     position: absolute;
     z-index: -1;
 }
@@ -10,9 +10,10 @@
     height: 260px;
 }
 .bj2{
-    background-image: url("../img/bg2.jpg");
+    /*background-image: url("../img/bg2.jpg");*/
+    background-color: #ff0000;
     width:100%;
-    height: 530px;
+    min-height: 130px;
 }
 .bj3{
     background-image: url("../img/bg3.jpg");

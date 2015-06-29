@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!--css3 3D
+       transform-style: preserve-3d; 开启三维效果，参数默认flat,二维效果
+        perspective: 1000px;透视、景深效果
+        translate3d(30px,30px,100px);  3d移动
+                   x      y    z
+        rotate3d(1,0,0,45deg); 3d旋转
+             arg1:x  0-1数值，描述元素围绕X轴旋转的矢量值
+             arg2:y  0-1数值，描述元素围绕y轴旋转的矢量值
+             arg3:z  0-1数值，描述元素围绕z轴旋转的矢量值
+             arg4:角度值，元素在3d空间中旋转的角度
+        rotatex()      rotatey()      rotateZ()
+
+        scale3d()  3d缩放
+        scaleX（）  scaleY（）  scaleZ（）
+    -->
+    <style>
+        body{
+            background: #000000;
+        }
+        .wrap{
+            width: 500px;
+            height: 500px;
+            position: relative;
+            left:50%;
+            top:50%;
+            margin-top: 250px;
+            perspective:2000px;
+        }
+        .box{
+            transform-style: preserve-3d;
+            -webkit-transform: translate3d(200px,100px,0) rotateX(360deg) rotateY(360deg);
+            -webkit-animation: f1 5s linear infinite;
+        }
+        .box div{
+            width: 100px;
+            height: 100px;
+            background:rgba(255,0,0,0.3);
+            border: 1px solid red;
+            position: absolute;
+        }
+        .left{
+            -webkit-transform: rotateY(-90deg) translateZ(50px) ;
+        }
+        .right{
+            -webkit-transform: rotateY(90deg) translateZ(50px) ;
+        }
+        .top{
+            -webkit-transform: rotateX(90deg) translateZ(50px);
+        }
+        .bottom{
+            -webkit-transform: rotateX(-90deg) translateZ(50px);
+        }
+        .back{
+            -webkit-transform: rotateX(180deg) translateZ(50px);
+        }
+        .front{
+            -webkit-transform:translateZ(50px);
+        }
+        @-webkit-keyframes  f1{
+            /*from{-webkit-transform: rotate3d(0,0,0,0deg);}*/
+            /*to{-webkit-transform: rotate3d(1,1,1,360deg);}*/
+            from{
+                -webkit-transform: translate3d(0,0,0) rotateX(0deg) rotateY(0deg);
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+        }
+        /*.box:hover{*/
+        /*-webkit-animation: f1 5s linear infinite;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="box">
+        <div class="front">1</div>
+        <div class="back">2</div>
+        <div class="left">3</div>
+        <div class="right">4</div>
+        <div class="top">5</div>
+        <div class="bottom">6</div>
+    </div>
+</div>
+</body>
+</html>

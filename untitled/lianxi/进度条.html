@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        @-webkit-keyframes frame {
+            from{-webkit-transform: rotate(0deg)}
+            to{-webkit-transform: rotate(360deg)}
+         }
+        .loading{
+            width: 360px;
+            height: 360px;
+            border-radius: 180px;
+            border: 1px solid red;
+            position: relative;
+            -webkit-animation: frame 4s linear infinite;
+        }
+        .loading div{
+            width: 30px;
+            height: 30px;
+            background: red;
+            border-radius: 50%  0 ;
+            position: absolute;
+
+        }
+        /*.loading div:nth-child(1){*/
+            /*position: relative;*/
+            /*top: 0px;*/
+            /*left: 0px;*/
+        /*}*/
+        .loading div:nth-child(1){
+            /*position: relative;*/
+            top: -15px;
+            left: 180px;
+        }
+        .loading div:nth-child(2){
+            /*position: relative;*/
+            top: 10px;
+            left: 270px;
+        }
+        .loading div:nth-child(3){
+            /*position: relative;*/
+            top: 180px;
+            left: 345px;
+        }
+        .loading div:nth-child(4){
+            /*position: relative;*/
+            top: 310px;
+            left: 270px;
+        }
+        .loading div:nth-child(5){
+            /*position: relative;*/
+            top: 345px;
+            left: 180px;
+        }
+        .loading div:nth-child(6){
+            /*position: relative;*/
+            top: 310px;
+            left: 70px;
+        }
+        .loading div:nth-child(7){
+            /*position: relative;*/
+            top: 165px;
+            left: -15px;
+        }
+        .loading div:nth-child(8){
+            /*position: relative;*/
+            top: 10px;
+            left: 90px;
+        }
+    </style>
+</head>
+<body>
+<div class="loading">
+    <div  class="q1"></div>
+    <div></div>
+    <div></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <div ></div>
+    <!--<div ></div>-->
+</div>
+</body>
+</html>

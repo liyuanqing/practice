@@ -670,13 +670,13 @@ ul.menu2-2 li,ul.menu2-4{
     background-color: black;
 }
 .search{
-    background-image: url("../img/search.jpg");
-    width: 210px;
-    height: 32px;
-    clear: both;
-    margin-top: 1640px;
-    margin-left: 20px;
-}
+     background-image: url("../img/search.jpg");
+     width: 210px;
+     height: 32px;
+     clear: both;
+     margin-top: 1640px;
+     margin-left: 20px;
+ }
 .e1{
     width: 30px;
     height: 30px;
@@ -686,7 +686,7 @@ ul.menu2-2 li,ul.menu2-4{
     margin-top: 20px;
 }
 .e1-1{
-   background-image: url("../img/twitter1.png");
+    background-image: url("../img/twitter1.png");
     width: 30px;
     height: 60px;
     margin-top: 0;

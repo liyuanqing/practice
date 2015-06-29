@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .wrap{
+            width: 500px;
+            height: 500px;
+            margin-top: 100px;
+            margin-left: 100px;
+            position: absolute;
+            transform-style: preserve-3d;
+            perspective: 1500px;
+        }
+        .box{
+            transform-style: preserve-3d;
+        }
+        .q1{
+            float: left;
+        }
+        .box div{
+            display: list-item;
+            list-style: none;
+            position: absolute;
+        }
+        .q2{
+            float: left;
+            margin-left: 65px;
+        }
+        .q3{
+            margin-left: 130px;
+        }
+        .q4{
+            margin-left: 195px;
+        }
+        .q5{
+            margin-left: 260px;
+        }
+        .q6{
+            margin-left: 325px;
+        }
+        .q7{
+            margin-left: 390px;
+        }
+        .q8{
+            margin-left: 455px;
+        }
+        .q9{
+            margin-left: 520px;
+        }
+        .q10{
+            margin-left: 585px;
+        }
+       .w1{
+            width: 66px;
+            height: 20px;
+            -webkit-transform:  translateZ(-18px) ;
+           background: #121212;
+          margin-top: 10px;
+        }
+        .w2{
+            margin-top: 10px;
+            width: 40px;
+            height: 20px;
+            -webkit-transform: rotateY(90deg) translateZ(45px);
+            background: #181818;
+        }
+       .w3{
+           margin-top: 10px;
+            width: 66px;
+            height: 40px;
+            -webkit-transform: rotateX(90deg) translateZ(20px);
+           background: #000000;
+        }
+       .w4{
+           margin-top: 10px;
+           width: 40px;
+           height: 20px;
+           -webkit-transform: rotateY(-90deg) translateZ(-45px);
+           background: #181818;
+       }
+       .w6{
+           width: 66px;
+           height: 20px;
+           -webkit-transform:  translateZ(18px) ;
+           background: #121212;
+           margin-top: 10px;
+       }
+      /*.w5{*/
+            /*margin-top: 10px;*/
+            /*width: 66px;*/
+            /*height: 40px;*/
+            /*-webkit-transform: rotateX(90deg) translateZ(-33px) translateX(-33px) translateY(33px) ;*/
+            /*background: #000000;*/
+      /*}*/
+        .box{
+            -webkit-transform: rotateY(35deg) skew(-10deg, 0deg  )  rotateX(60deg);
+        }
+
+
+
+
+
+
+        /*@-webkit-keyframes zhuan  {*/
+            /*from{-webkit-transform: rotateY(0deg)}*/
+            /*to{-webkit-transform: rotateY(360deg)}*/
+        /*}*/
+        /*.box:hover{*/
+            /*-webkit-animation: zhuan 10s linear infinite;*/
+        /*}*/
+        .q1:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q1:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q2:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q3:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q4:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q5:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q6:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q7:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q8:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q9:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q10:hover .w6{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q1:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q1:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        /*.q1:hover .w4{*/
+            /*height: 30px;*/
+            /*margin-top: 0px;*/
+            /*background-color: #ff0000;*/
+            /*transition:  all   1s linear ;*/
+        /*}*/
+        /*.q2:hover .w4{*/
+            /*height: 30px;*/
+            /*margin-top: 0px;*/
+            /*background-color: #ff0000;*/
+            /*transition:  all   1s linear ;*/
+        /*}*/
+        .q2:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q2:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q2:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+
+        .q3:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q3:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q3:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q4:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q4:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q4:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q5:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q5:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q5:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q6:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q6:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q6:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q7:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q7:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q7:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q8:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q8:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q8:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q9:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q9:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q9:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+        .q10:hover .w1{
+            height: 30px;
+            background-color: #ff0000;
+            margin-top: 0px;
+            transition:  all 1s linear ;
+        }
+        .q10:hover .w2{
+            height: 30px;
+            margin-top: 0px;
+            background-color: #ff0000;
+            transition:  all   1s linear ;
+        }
+        .q10:hover .w3{
+            -webkit-transform: rotateX(90deg) translateZ(30px);
+            background-color: #ff0000;
+            transition:   -webkit-transform 1s linear ;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+   <div class="box">
+       <div class="q1">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w4"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q2">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q3">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q4">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q5">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q6">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q7">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q8">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q9">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+       <div class="q10">
+           <div class="w1"></div>
+           <div class="w2"></div>
+           <div class="w3"></div>
+           <div class="w5"></div>
+           <div class="w6"></div>
+       </div>
+
+   </div>
+</div>
+</body>
+</html>

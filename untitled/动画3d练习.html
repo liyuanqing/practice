@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .wrap{
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            perspective: 1500px;
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+        .box{
+            transform-style: preserve-3d;
+        }
+        .box div{
+            background-color: rgba(255,0,0,0.3);
+            border: 1px solid #ff0000;
+            position: absolute;
+        }
+
+
+
+        .q1 div:nth-child(1){
+            width: 50px;
+            height: 50px;
+            -webkit-transform: rotateY(-90deg) translateZ(-175px);
+        }
+        .q1 div:nth-child(2){
+            -webkit-transform: rotateY(90deg) translateZ(-25px);
+            width: 50px;
+            height: 50px;
+        }
+        .q1 div:nth-child(3){
+            -webkit-transform: rotateX(90deg) translateZ(25px);
+            width: 200px;
+            height: 50px;
+        }
+        .q1 div:nth-child(4){
+            width: 200px;
+            height: 50px;
+            -webkit-transform: rotateX(90deg) translateZ(-25px);
+        }
+        .q1 div:nth-child(5){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(-25px);
+        }
+        .q1 div:nth-child(6){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(25px);
+        }
+        .q1{
+            transform-style: preserve-3d;
+            -webkit-transform:   translateX(-25px) translateZ(25px)
+        }
+
+
+        .q2 {
+            transform-style: preserve-3d;
+            /*width: 100px;*/
+            /*height: 100px;*/
+            -webkit-transform: rotateY(-90deg)  translateZ(0px);
+        }
+        .q2 div:nth-child(1){
+            width: 50px;
+            height: 50px;
+            -webkit-transform: rotateY(-90deg) translateZ(-175px);
+        }
+        .q2 div:nth-child(2){
+            -webkit-transform: rotateY(90deg) translateZ(-25px);
+            width: 50px;
+            height: 50px;
+        }
+        .q2 div:nth-child(3){
+            -webkit-transform: rotateX(90deg) translateZ(25px);
+            width: 200px;
+            height: 50px;
+        }
+        .q2 div:nth-child(4){
+            width: 200px;
+            height: 50px;
+            -webkit-transform: rotateX(90deg) translateZ(-25px);
+        }
+        .q2 div:nth-child(5){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(-25px);
+        }
+        .q2 div:nth-child(6){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(25px);
+        }
+
+
+
+        .q3 {
+            transform-style: preserve-3d;
+            -webkit-transform:   translateX(-25px) translateZ(175px)
+        }
+        .q3 div:nth-child(1){
+            width: 50px;
+            height: 50px;
+            -webkit-transform: rotateY(-90deg) translateZ(-175px);
+        }
+        .q3 div:nth-child(2){
+            -webkit-transform: rotateY(90deg) translateZ(-25px);
+            width: 50px;
+            height: 50px;
+        }
+        .q3 div:nth-child(3){
+            -webkit-transform: rotateX(90deg) translateZ(25px);
+            width: 200px;
+            height: 50px;
+        }
+        .q3 div:nth-child(4){
+            width: 200px;
+            height: 50px;
+            -webkit-transform: rotateX(90deg) translateZ(-25px);
+        }
+        .q3 div:nth-child(5){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(-25px);
+        }
+        .q3 div:nth-child(6){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(25px);
+        }
+
+
+
+        .q4 {
+            transform-style: preserve-3d;
+            -webkit-transform: rotateY(90deg)  translateZ(150px) translateY(0px) translateX(-200px);
+        }
+        .q4 div:nth-child(1){
+            width: 50px;
+            height: 50px;
+            -webkit-transform: rotateY(-90deg) translateZ(-175px);
+        }
+        .q4 div:nth-child(2){
+            -webkit-transform: rotateY(90deg) translateZ(-25px);
+            width: 50px;
+            height: 50px;
+        }
+        .q4 div:nth-child(3){
+            -webkit-transform: rotateX(90deg) translateZ(25px);
+            width: 200px;
+            height: 50px;
+        }
+        .q4 div:nth-child(4){
+            width: 200px;
+            height: 50px;
+            -webkit-transform: rotateX(90deg) translateZ(-25px);
+        }
+        .q4 div:nth-child(5){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(-25px);
+        }
+        .q4 div:nth-child(6){
+            width: 200px;
+            height: 50px;
+            transform: translateZ(25px);
+        }
+
+
+
+
+        .shang{
+            transform-style: preserve-3d;
+            -webkit-transform: translateY(150px);
+
+       }
+        .qian .q1{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateZ(90deg) translateX(0px) translateY(-25px) translateZ(25px) ;
+        }
+        .qian .q2{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateZ(90deg) translateX(0px) translateY(-175px) translateZ(25px) ;
+        }
+        .hou .q1{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateZ(90deg) translateX(0px) translateY(-25px) translateZ(175px) ;
+        }
+        .hou .q2{
+            transform-style: preserve-3d;
+            -webkit-transform: rotateZ(90deg) translateX(0px) translateY(-175px) translateZ(175px) ;
+        }
+
+
+
+        @-webkit-keyframes zhuan  {
+            from{-webkit-transform: rotateY(0deg)}
+            to{-webkit-transform: rotateY(360deg)}
+        }
+        .box:hover{
+            -webkit-animation: zhuan 5s linear infinite;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="box">
+        <div class="di">
+        <div class="q1">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="q2">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="q3">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="q4">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        </div>
+        <div class="shang">
+            <div class="q1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="q2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="q3">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="q4">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="qian">
+            <div class="q1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="q2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="hou">
+            <div class="q1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="q2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

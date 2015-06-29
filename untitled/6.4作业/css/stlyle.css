@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "黑体", "Arial";
+}
+ul{
+    list-style: none;
+}
+.zongbuju{
+    width: 1285px;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+}
+.left{
+    width: 250px;
+    height: 840px;
+    background-color: #161719;
+    border-right: 5px solid #01a9ac;
+}
+.right{
+    width: 995px;
+    height: 100%;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+.left-top{
+    background-image: url("../img/lefttop.jpg");
+    width: 248px;
+    height: 120px;
+}
+.left ul li{
+    width: 250px;
+    height: 74px;
+    /*border: 1px solid red;*/
+    margin-left: -40px;
+    float: left;
+    position: relative;
+}
+.home-icon1{
+    float: left;
+    background: url("../img/home.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+.home-text{
+    /*border: 1px solid red;*/
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+.home-text div{
+    font-size: 12px;
+    color: #6C6C6C;
+    margin-top: -5px;
+}
+.home-icon2{
+    float: left;
+    background: url("../img/aboutus.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+.home-icon3{
+    float: left;
+    background: url("../img/services.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+.home-icon4{
+    float: left;
+    background: url("../img/portfolio.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+.home-icon5{
+    float: left;
+    background: url("../img/blog.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+.home-icon6{
+    float: left;
+    background: url("../img/contact.png") no-repeat;
+    width: 28px;
+    height: 29px;
+    margin-top: 23px;
+}
+ul.menu2-1{
+    width: 163px;
+    height: 3000px;
+    background-color: #01a9ac;
+    position: absolute;
+    left: 254px;
+    top: -137px;
+    display: none;
+}
+.left1:hover ul.menu2-1{
+    transition: all 0.5s linear ;
+    display: block;
+}
+.left1:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+.left2:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+.left3:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+.left4:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+.left5:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+.left6:hover .mb1{
+    display: block;
+    width: 250px;
+    transition: all 1s linear;
+}
+ul.menu2-1 li{
+    width: 200px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+ul.menu2-2{
+    width: 163px;
+    height: 3000px;
+    background-color: #01a9ac;
+    position: absolute;
+    left: 254px;
+    top: -211px;
+    display: none;
+}
+ul.menu2-4{
+    width: 163px;
+    height: 3000px;
+    background-color: #01a9ac;
+    position: absolute;
+    left: 254px;
+    top: -359px;
+    display: none;
+}
+ul.menu2-2 li,ul.menu2-4{
+    width: 200px;
+    height: 37px;
+    line-height: 37px;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+.left2:hover ul.menu2-2{
+    transition: all 0.5s linear ;
+    display: block;
+}
+.left4:hover ul.menu2-4{
+    transition: all 0.5s linear ;
+    display: block;
+}
+.search{
+    background-image: url("../img/search.jpg");
+    width: 210px;
+    height: 32px;
+    clear: both;
+    margin-top: 590px;
+    margin-left: 20px;
+}
+.e1{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.e1-1{
+    background-image: url("../img/twitter1.png");
+    width: 30px;
+    height: 60px;
+    margin-top: 0;
+
+    /*overflow: hidden;*/
+}
+.e1-2{
+    background-image: url("../img/vimeo.png");
+    width: 30px;
+    height: 60px;
+    margin-top: 0;
+    /*overflow: hidden;*/
+}
+.e1:hover .e1-1{
+    margin-top: -30px;
+    transition: all 0.5s linear;
+}
+.e2{
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 20px;
+    /*margin-right: 20px;*/
+    overflow: hidden;
+}
+.e2:hover .e1-2{
+    margin-top: -30px;
+    transition: all 0.5s linear;
+}
+.e3{
+    width: 30px;
+    height: 30px;
+    clear: both;
+    float: right;
+    margin-right: 20px;
+    /*margin-top: 20px;*/
+    /*margin-right: 20px;*/
+    overflow: hidden;
+}
+.e1-3{
+    background-image: url("../img/facebook.png");
+    width: 30px;
+    height: 60px;
+    margin-top: 0;
+    /*overflow: hidden;*/
+}
+.e3:hover .e1-3{
+    margin-top: -30px;
+    transition: all 0.5s linear;
+}
+.fenlan1{
+    font-size: 12px;
+    font-weight: 100;
+    width: 971px;
+    height: 130px;
+    -webkit-column-count:4;/*列数*/
+    column-gap: 38px;/*列间距*/
+    column-width: 215px;/*列宽 会根据屏幕自动调节列数*/
+    /*columns:4 200px;*/
+    /*column-rule-width: 10px;*/
+    /*column-rule-color:red ;*/
+    /*column-rule-style: dotted;*/
+    /*column-rule:10px red dotted ;*/
+    /*column-fill: balance;*//* 定义栏目高度 balance 根据内容最多的一栏高度*/
+}
+.mb1{
+    width: 0px;
+    height: 74px;
+    /*margin-left: 250px;*/
+    background-color:#01a9ac ;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 2;
+    /*display: none;*/
+}
+.fenlan1 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.q1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    float: left;
+}
+.q2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    float: right;
+}
+.fenlan2 {
+    font-size: 12px;
+    font-weight: 100;
+    width: 971px;
+    height: 110px;
+    -webkit-column-count: 3; /*列数*/
+    column-gap: 38px; /*列间距*/
+    column-width: 300px; /*列宽 会根据屏幕自动调节列数*/
+    margin-top: 40px;
+}
+.fenlan2 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.fenlan3 {
+    font-size: 12px;
+    font-weight: 100;
+    width: 971px;
+    height: 80px;
+    -webkit-column-count: 2; /*列数*/
+    column-gap: 38px; /*列间距*/
+    column-width: 465px; /*列宽 会根据屏幕自动调节列数*/
+    margin-top: 40px;
+}
+.fenlan3 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.bo1{
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 100;
+    width: 718px;
+    height: 218px;
+    margin-right: 20px;
+    float: left;
+}
+.bo1 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.bo2{
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 100;
+    width: 214px;
+    height: 218px;
+    /*margin-right: 20px;*/
+    float: left;
+}
+.bo2 span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bottom{
+    clear: both;
+    width: 1009px;
+    height: 40px;
+    background-color: #00aaaa;
+    border-bottom: 10px solid black;
+    margin-top: 80px;
+    margin-left: -20px;
+}
+.bottom1{
+    text-decoration: none;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 0 20px;
+    font-size: 12px;
+    float: left;
+}
+.bottom1:hover{
+    background-color: black;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        @-webkit-keyframes frame01 {
+            from{-webkit-transform: rotateZ(0deg)}
+            to{-webkit-transform: rotateZ(360deg)}
+        }
+
+        .loading{
+            width: 200px;
+            height: 200px;
+            /*border: 2px solid blue;*/
+            position: relative;
+            left:100px;
+            top:100px;
+            -webkit-animation: frame01 3s linear infinite;
+        }
+        .loading div{
+            width: 30px;
+            height: 30px;
+            background: #ff0000;
+            border-radius: 50% 0;
+            position: absolute;
+            left:100px;
+            top:100px;
+
+        }
+
+        .loading div:nth-child(1){-webkit-transform: rotate(36deg) translate(60px);
+            opacity: 1;
+        }
+        .loading div:nth-child(2){-webkit-transform: rotate(72deg) translate(60px);
+            opacity: 0.9;
+        }
+        .loading div:nth-child(3){-webkit-transform: rotate(108deg) translate(60px);
+            opacity: 0.8;
+        }
+        .loading div:nth-child(4){-webkit-transform: rotate(144deg) translate(60px);
+            opacity: 0.7;
+        }
+        .loading div:nth-child(5){-webkit-transform: rotate(180deg) translate(60px);
+            opacity: 0.6;
+        }
+        .loading div:nth-child(6){-webkit-transform: rotate(216deg) translate(60px);
+            opacity: 0.5;
+        }
+        .loading div:nth-child(7){-webkit-transform: rotate(252deg) translate(60px);
+            opacity: 0.4;
+        }
+        .loading div:nth-child(8){-webkit-transform: rotate(288deg) translate(60px);
+            opacity: 0.3;
+        }
+        .loading div:nth-child(9){-webkit-transform: rotate(324deg) translate(60px);
+            opacity: 0.2;
+        }
+        .loading div:nth-child(10){-webkit-transform: rotate(0deg) translate(60px);
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body>
+<div class="loading">
+    <div class="d1"></div>
+    <div ></div>
+    <div class="d1"></div>
+    <div ></div>
+    <div class="d1"></div>
+    <div ></div>
+    <div class="d1"></div>
+    <div ></div>
+    <div class="d1"></div>
+    <div ></div>
+</div>
+</body>
+</html>

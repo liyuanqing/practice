@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .q1{
+            width: 100%;
+            height: 100px;
+            background-color: #ff0000;
+        }
+        .q2{
+            height: 400px;
+            float: left;
+            width: 40%;
+            background-color: #fff31e;
+        }
+        .q3{
+            height: 400px;
+            float: left;
+            width: 20%;
+            background-color: #bdff2a;
+        }
+        .q4{
+            height: 400px;
+            float: left;
+            width: 40%;
+            background-color: #54ff3c;
+        }
+        .q5{
+            height: 100px;
+            clear: both;
+            float: left;
+            width: 80%;
+            background-color: #51fff7;
+        }
+        .q6 {
+            height: 100px;
+            float: left;
+            width: 20%;
+            background-color: #5567ff;
+        }
+        @media screen and (max-width: 1000px) and (min-width: 600px){
+          .q2,.q3,.q4{
+              float: left;
+          }
+            .q2{width: 60%}
+            .q3{width: 40%;
+                height: 200px;
+            }
+            .q4{width: 40%;
+                height: 200px;
+            }
+            .q5{width: 100%;
+                float: none;
+                clear: both;
+            }
+            .q6{width: 100%;
+                float: none;
+                clear: both;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .q2{width: 100%;
+               height: 200px;
+                float: none;
+            }
+            .q3{width: 50%;
+                height: 200px;
+                float: left;
+            }
+            .q4{width: 50%;
+                height: 200px;
+                float: left;
+            }
+            .q5{width: 50%;
+                float: left;
+                clear: both;
+            }
+            .q6{width: 50%;
+                float: left;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="q1"></div>
+<div class="q2"></div>
+<div class="q3"></div>
+<div class="q4"></div>
+<div class="q5"></div>
+<div class="q6"></div>
+</body>
+</html>

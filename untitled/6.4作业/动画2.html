@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .center{
+            width: 20px;
+            height: 20px;
+            background-color: yellow;
+            border-radius: 10px;
+            position: relative;
+            margin-top: 300px;
+            margin-left: 500px;
+            box-shadow: 0px 0px 60px 0px rgba(255,255,0,1);
+            -webkit-animation: xuan 3s linear infinite;
+        }
+        @-webkit-keyframes xuan{
+            from{transform: rotate(0deg)}
+            50%{transform: rotate(180deg)}
+            to{transform: rotate(360deg)}
+        }
+
+        .center div:nth-child(1){
+            width: 40px;
+            height: 20px;
+            border-radius: 999px 999px 0 0;
+            /*border-radius: 20px;*/
+            background-color: #ff0000;
+            position: absolute;
+            left: -10px;
+            top: -40px;
+            -webkit-animation: shen1 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen1{
+            from{top:-40px}
+            /*12%{top: -30px}*/
+            /*24%{top: -20px}*/
+            /*36%{top: -10px}*/
+            50%{top: -10px}
+            /*62%{top: -10px}*/
+            /*74%{top: -20px}*/
+            /*86%{top: -30px}*/
+            to{top: -40px}
+        }
+        .center div:nth-child(2) {
+            width: 60px;
+            height: 30px;
+            border-radius: 999px 999px 0 0;
+            /*border-radius: 20px;*/
+            background-color: white;
+            position: absolute;
+            left: -20px;
+            top: -60px;
+            -webkit-animation: shen2 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen2{
+            from{top:-60px}
+            /*12%{top: -45px}*/
+            /*24%{top: -30px}*/
+            /*36%{top: -15px}*/
+            50%{top: -20px}
+            /*62%{top: -15px}*/
+            /*74%{top: -30px}*/
+            /*86%{top: -45px}*/
+            to{top: -60px}
+        }
+        .center div:nth-child(3){
+            width: 80px;
+            height: 40px;
+            border-radius: 999px 999px 0 0;
+            /*border-radius: 20px;*/
+            background-color: #ff0000;
+            position: absolute;
+            left: -30px;
+            top: -80px;
+            -webkit-animation: shen3 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen3{
+            from{top:-80px}
+            /*12%{top: -60px}*/
+            /*24%{top: -40px}*/
+            /*36%{top: -20px}*/
+            50%{top: -30px}
+            /*62%{top: -20px}*/
+            /*74%{top: -40px}*/
+            /*86%{top: -60px}*/
+            to{top: -80px}
+        }
+        .center div:nth-child(4){
+            width: 100px;
+            height: 50px;
+            border-radius: 999px 999px 0 0;
+            /*border-radius: 20px;*/
+            background-color: white;
+            position: absolute;
+            left: -40px;
+            top: -100px;
+            -webkit-animation: shen4 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen4{
+            from{top:-100px}
+            /*12%{top: -75px}*/
+            /*24%{top: -50px}*/
+            /*36%{top: -25px}*/
+            50%{top: -40px}
+            /*62%{top: -25px}*/
+            /*74%{top: -50px}*/
+            /*86%{top: -75px}*/
+            to{top: -100px}
+        }
+        .center div:nth-child(5){
+            width: 120px;
+            height: 60px;
+            border-radius: 999px 999px 0 0;
+            /*border-radius: 20px;*/
+            background-color: #ff0000;
+            position: absolute;
+            left: -50px;
+            top: -120px;
+            -webkit-animation: shen5 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen5{
+            from{top:-120px}
+            /*12%{top: -90px}*/
+            /*24%{top: -60px}*/
+            /*36%{top: -60px}*/
+            50%{top: -50px}
+            /*62%{top: -30px}*/
+            /*74%{top: -60px}*/
+            /*86%{top: -90px}*/
+            to{top: -120px}
+        }
+        .center div:nth-child(6){
+            width: 40px;
+            height: 20px;
+            border-radius: 0 0 999px 999px;
+            /*border-radius: 20px;*/
+            background-color: blue;
+            position: absolute;
+            left: -10px;
+            top: 40px;
+            -webkit-animation: shen6 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen6{
+            from{top:40px}
+            50%{top: 10px}
+            to{top: 40px}
+        }
+        .center div:nth-child(7){
+            width: 60px;
+            height: 30px;
+            border-radius:0 0 999px 999px ;
+            /*border-radius: 20px;*/
+            background-color: white;
+            position: absolute;
+            left: -20px;
+            top: 50px;
+            -webkit-animation: shen7 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen7{
+            from{top:50px}
+            50%{top: 10px}
+            to{top: 50px}
+        }
+        .center div:nth-child(8){
+            width: 80px;
+            height: 40px;
+            border-radius: 0 0 999px 999px;
+            /*border-radius: 20px;*/
+            background-color: blue;
+            position: absolute;
+            left: -30px;
+            top: 60px;
+            -webkit-animation: shen8 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen8{
+            from{top:60px}
+            50%{top: 10px}
+            to{top: 60px}
+        }
+        .center div:nth-child(9){
+            width: 100px;
+            height: 50px;
+            border-radius: 0 0 999px 999px;
+            /*border-radius: 20px;*/
+            background-color: white;
+            position: absolute;
+            left: -40px;
+            top: 70px;
+            -webkit-animation: shen9 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen9{
+            from{top:70px}
+            50%{top: 10px}
+            to{top: 70px}
+        }
+        .center div:nth-child(10){
+            width: 120px;
+            height: 60px;
+            border-radius: 0 0 999px 999px;
+            /*border-radius: 20px;*/
+            background-color:blue;
+            position: absolute;
+            left: -50px;
+            top: 80px;
+            -webkit-animation: shen10 1.5s linear infinite;
+        }
+        @-webkit-keyframes shen10{
+            from{top:80px}
+            50%{top: 10px}
+            to{top: 80px}
+        }
+    </style>
+</head>
+<body>
+<div class="center">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+</body>
+</html>

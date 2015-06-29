@@ -1,0 +1,683 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.background1{
+    background: url("../img/bg1.jpg");
+ width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.mb{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.82);
+}
+.order,.order2,.order3,.order4{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(48, 231, 255, 0.53);
+    font-size: 40px;
+    color: wheat;
+    font-family: 黑体, Arial;
+    font-weight: 900;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+}
+.order2{
+    display: none;
+}
+.order3{
+    display: none;
+}
+.order4{
+    display: none;
+}
+@media screen and (max-width: 900px){
+    .order{
+        display: none;
+    }
+    .order2{
+        display: block;
+        width: 20%;
+        height: 30%;
+    }
+}
+@media screen and (max-width: 610px){
+    .order{
+        display: none;
+    }
+    .order4{
+        display: none;
+    }
+    .order2{
+        display: none;
+    }
+    .order3{
+        display: block;
+        width: 20%;
+        height: 30%;
+    }
+}
+@media screen and (max-width: 480px){
+    .order{
+        display: none;
+    }
+    .order3{
+        display: none;
+    }
+    .order2{
+        display: none;
+    }
+    .order4{
+        display: block;
+        width: 20%;
+        height: 30%;
+    }
+}
+
+.a1{ text-decoration:none; color: wheat; }
+.a1:link { text-decoration: none; color: wheat;}
+.a1:hover{ text-decoration: none; color: wheat; }
+.a2{ text-decoration:none; color: wheat; }
+.a2:link { text-decoration: none; color: wheat;}
+.a2:hover{ text-decoration: none; color: wheat; }
+.a3{ text-decoration:none; color: white; }
+.a3:link { text-decoration: none; color: white;}
+.a3:hover{ text-decoration: none; color: white;  cursor: url('../img/voir.png') 25 25,e-resize; }
+.a4{ text-decoration:none; color: #000000 }
+.a4:link { text-decoration: none; color: #000000 }
+.a4:hover{ text-decoration: none;  color: #000000  cursor: url('../img/close.png') 25 25,e-resize; }
+
+.img1{
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    -webkit-animation:myframe 0.5s linear ;
+}
+@-webkit-keyframes myframe{
+    from{
+        width: 100%;
+        height: 100%;
+    }
+    to{
+        width: 0;
+        height: 0;
+    }
+}
+.background2{
+    width: 100%;
+    height: 100%
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    flex-wrap: wrap;
+}
+.cont1{
+  flex: 1;
+    position: relative;
+}
+.p1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    font-family: 经典空叠圆繁 !important;
+    /*font-family: 经典空叠圆繁;*/
+}
+.picture1{
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+.mb1{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    z-index: 1;
+    -webkit-animation:dong1 1s linear ;
+}
+.cont1:hover .mb1{
+    display: none;
+}
+.text1{
+    text-decoration: none;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 5px 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 1;
+    border-radius: 5%;
+  overflow: visible;
+    display: none;
+    font-family: 经典空叠圆繁;
+    /*font-family: 金梅浪漫黑框體;*/
+
+}
+@-webkit-keyframes dong3{
+    from{
+        top: -500%;
+    }
+    70%{
+        top: -100%;
+    }
+    75%{
+        top: -100%;
+    }
+    80%{
+        top: -100%;
+    }
+    85%{
+        top: -120%;
+    }
+    90%{
+        top: -100%;
+    }
+    95%{
+        top: -105%;
+    }
+    100%{
+        top: -100%;
+    }
+}
+.p1:hover .text1{
+    display: block;
+}
+.p1:hover .text2{
+    display: block;
+    -webkit-animation:dong3 1s linear  ;
+}
+.cont1:hover{
+    cursor: url('../img/voir.png') 25 25,e-resize;
+}
+.text2{
+    text-decoration: none;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 5px 10px;
+    font-size: 25px;
+    position: absolute;
+    top: -100%;
+    left: -20%;
+    border-radius: 5%;
+    display: block;
+    font-family: 经典空叠圆繁;
+    /*font-family: 金梅浪漫黑框體;*/
+    /*font-family: 金梅海報大豆豆字;*/
+}
+@-webkit-keyframes dong1{
+    from{
+        width: 0%;
+    }
+   to{
+    width: 100%;
+}
+}
+.cont2{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    /*min-width: 300px;*/
+}
+.mb2{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    z-index: 1;
+    -webkit-animation:dong1 1s linear  ;
+}
+.cont2:hover .mb2{
+    display: none;
+}
+.cont2:hover{
+    cursor: url('../img/voir.png') 25 25,e-resize;
+}
+@font-face {
+    font-family: bb;
+    src: url('../css/汉仪漫步体简.ttf');
+}
+.text3{
+    text-decoration: none;
+    line-height: 40px;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.88);
+    padding: 5px 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    z-index: 1;
+    border-radius: 5%;
+    overflow: visible;
+    display: none;
+    font-family:bb;
+}
+@-webkit-keyframes dong4{
+    from{
+        top: -30%;
+    }
+    70%{
+        top: 20%;
+    }
+    75%{
+        top: 30%;
+    }
+    80%{
+        top: 30%;
+    }
+   85%{
+        top: 25%;
+    }
+   90%{
+        top: 30%;
+    }
+    95%{
+        top: 25%;
+    }
+    100%{
+        top: 30%;
+    }
+}
+.cont2:hover .text3{
+    display: block;
+    transition: display 0.5s linear;
+    -webkit-animation:dong4 1s linear  ;
+}
+.cont3{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+.cont3:hover{
+    cursor: url('../img/voir.png') 25 25,e-resize;
+}
+.mb3{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    z-index: 1;
+    -webkit-animation:dong2 1s linear  ;
+}
+.cont3:hover .mb3{
+    display: none;
+}
+@-webkit-keyframes dong2{
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+.cont4{
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+.mb4{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.67);
+    position: absolute;
+    z-index: 1;
+    -webkit-animation:dong2 1s linear  ;
+}
+.cont4:hover .mb4{
+    display: none;
+}
+.cont4:hover{
+    cursor: url('../img/menu.png') 25 25,e-resize;
+}
+@font-face {
+font-family: aa;
+    src: url('../css/BallTack.ttf');
+}
+.menu{
+    position: absolute;
+    display: block;
+   top: 50%;
+    left: 20%;
+    background: #000;
+    width: 90px;
+    height: 40px;
+    color: #61a8ff;
+    text-transform: uppercase;
+    font: normal 400 30px/40px 'futura-pt-condensed', sans-serif;
+    padding-left: 20px;
+    z-index: 2;
+    /*font-family: webfont;*/
+    /*src:url(img/)*/
+    /*font-family: BallTack;*/
+    font-family: aa;
+}
+.text5{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid skyblue;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 1;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+   padding-top: 20px;
+    display: none;
+}
+.text5-1{
+    width: 0;
+    height: 200px;
+    border: 1px solid white;
+    position: absolute;
+    top: -200%;
+    left: 50%;
+}
+@-webkit-keyframes dong5{
+    from{
+      top: -20%;
+    }
+
+    to{
+        top: 20%;
+    }
+}
+.cont3:hover .text5{
+    display: block;
+    transition: display 0.5s linear;
+    -webkit-animation:dong5 1s linear  ;
+}
+@media screen and (max-width: 600px){
+  .cont1{
+     flex: 50%;
+  }
+    .cont2{
+        flex: 50%;
+    }
+    .cont3{
+        flex: 50%;
+    }
+    .cont4{
+        flex: 50%;
+    }
+
+}
+
+
+
+
+@-webkit-keyframes dong6{
+    from{
+     width: 100%;
+        height: 700px;
+    }
+    99%{
+        width: 0;
+        height: 700px;
+    }
+    100%{
+        display: none;
+    }
+}
+.menu-mb{
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.mb5{
+    width: 0;
+    height: 0;
+    background-color: #000000;
+    -webkit-animation:dong6 1s linear  ;
+    float: left;
+}
+.body{
+    width: 100%;
+    /*height: 800px;*/
+    min-height: 700px;
+    min-width: 390px;
+    /*min-height: 700px;*/
+    position: relative;
+}
+.img3{
+    width: 100%;
+  position: absolute;
+    min-height: 800px;
+}
+.top1{
+    width: 100%;
+    height: 30%;
+    min-height: 300px;
+    position: relative;
+}
+.top1:hover{
+    cursor: url('../img/close.png') 25 25,e-resize;
+}
+.middle{
+    width: 100%;
+    height: 30%;
+    position: relative;
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans serif;
+}
+.middle:hover{
+    cursor: url('../img/voir.png') 25 25,e-resize;
+}
+.bottom1{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    min-height: 300px;
+}
+.bottom1:hover{
+    cursor: url('../img/close.png') 25 25,e-resize;
+}
+.menu1{
+    position: relative;
+    width: 100%;
+    height:33% ;
+    overflow: hidden;
+}
+.mb6{
+    width: 100%;
+    height: 100%;
+    margin-left: -100%;
+    background-color: rgba(219, 219, 219, 0.62);
+    position: absolute;
+    top: 0;
+}
+.menu1:hover .mb6{
+    margin-left: 0;
+    transition: all 0.5s linear;
+}
+.menu2{
+    position: relative;
+    width: 100%;
+    height:33% ;
+    overflow: hidden;
+}
+.mb7{
+    width: 100%;
+    height: 100%;
+    margin-left: 100%;
+    background-color: rgba(219, 219, 219, 0.62);
+    position: absolute;
+    top: 0;
+}
+.menu2:hover .mb7{
+    margin-left: 0;
+    transition: all 0.5s linear;
+}
+.menu3{
+    position: relative;
+    width: 100%;
+    height:33% ;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+.coffeeread{
+    background-image: url("../img/bg-coffee.jpg");
+    width: 100%;
+    min-height: 700px;
+}
+.zhenwen{
+    width: 80%;
+    min-height: 700px;
+    margin: 0 auto;
+    background-image: url("../img/bg2-coffee.jpg");
+}
+.tabs{
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+}
+input{
+    display: none;
+    width: 20%;
+}
+label{
+    width: 20%;
+    height: 30px;
+    background-color: gainsboro;
+    display: block;
+    text-align: left;
+    padding-left: 4px;
+    border: 1px dashed #696969;
+    border-radius: 5px;
+}
+input:checked + label{
+    background-color:  #777777;
+}
+.tabpanels .panel{
+    width: 100%;
+    min-height: 700px;
+    background-color:white;
+    border-radius: 5px;
+}
+.panel{
+    display: none;
+}
+.tabs input:nth-of-type(1):checked ~ .tabpanels .panel:first-child,
+.tabs input:nth-of-type(2):checked ~ .tabpanels .panel:nth-child(2),
+.tabs input:nth-of-type(3):checked ~ .tabpanels .panel:nth-child(3),
+.tabs input:nth-of-type(4):checked ~ .tabpanels .panel:last-child{
+    display: block;
+}
+.tabpanels{
+    width: 79%;
+    top: 0px;
+    margin-left: 21%;
+    margin-top: -120px;
+    border: 2px dotted gainsboro;
+}
+.title1{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.article1{
+    width: 78%;
+    font-size: 15px;
+    -webkit-column-count:1
+   column-width: 80%;
+    padding-left: 10%;
+    text-indent: 30px;
+}
+.chatu{
+    padding-top:10px ;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.panel:hover{
+    cursor: url('../img/close.png') 25 25,e-resize;
+}
+.article2{
+    width: 78%;
+    font-size: 15px;
+    -webkit-column-count:1
+column-width: 80%;
+    padding-left: 10%;
+    text-align: center;
+}
+.img4 {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+@media screen and (max-width: 480px){
+    label{
+        width: 20%;
+        height: 50px;
+        background-color: gainsboro;
+        display: block;
+        text-align: left;
+        padding-left: 4px;
+        border: 1px dashed #696969;
+        border-radius: 5px;
+    }
+    .tabpanels{
+        width: 79%;
+        top: 0px;
+        margin-left: 21%;
+        margin-top: -200px;
+        border: 2px dotted gainsboro;
+    }
+}
